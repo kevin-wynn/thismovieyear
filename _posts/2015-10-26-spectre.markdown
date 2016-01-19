@@ -5,7 +5,9 @@ date: October 26th, 2015
 score: 4
 category:
 - movie
-- Documentary
+- Action
+- Adventure
+- Thriller
 actors:
 - Daniel Craig
 - Christoph Waltz

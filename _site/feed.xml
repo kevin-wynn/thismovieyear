@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jan 2016 18:34:23 -0600</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2016 18:34:23 -0600</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2016 18:44:52 -0600</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 18:44:52 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -208,13 +208,17 @@
         <description>
 </description>
         <pubDate>Mon, 26 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/movie/documentary/spectre.html</link>
-        <guid isPermaLink="true">http://localhost:4000/movie/documentary/spectre.html</guid>
+        <link>http://localhost:4000/movie/action/adventure/thriller/spectre.html</link>
+        <guid isPermaLink="true">http://localhost:4000/movie/action/adventure/thriller/spectre.html</guid>
         
         
         <category>movie</category>
         
-        <category>Documentary</category>
+        <category>Action</category>
+        
+        <category>Adventure</category>
+        
+        <category>Thriller</category>
         
       </item>
     

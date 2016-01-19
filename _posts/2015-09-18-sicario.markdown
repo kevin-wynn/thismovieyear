@@ -7,7 +7,7 @@ category:
 - movie
 - Crime
 - Drama
-- Romance
+- Action
 actors:
 - Emily Blunt
 - Benicio del Toro
