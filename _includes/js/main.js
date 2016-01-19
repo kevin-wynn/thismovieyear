@@ -5,10 +5,4 @@ $(document).ready(function(){
   if(categoryList.length > 0){
     categoryList.remove();
   }
-
-  $(function() {
-    $( document ).tooltip({
-      tooltipClass: "tmy-tooltip",
-    });
-  });
 });

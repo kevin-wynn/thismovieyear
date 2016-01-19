@@ -3,7 +3,6 @@
 {% include js/main.js %}
 {% include js/themoviedb.js %}
 {% include js/jquery-dateFormat.min.js %}
-{% include js/jquery-ui.min.js %}
 
 {% if page.layout == 'admin' %}
   {% include js/admin.js %}
@@ -11,25 +10,9 @@
   {% include js/vague.js %}
 {% endif %}
 
-{% if page.layout == 'home' %}
-  {% include js/home.js %}
-{% endif %}
-
-{% if page.layout == 'all' %}
-  {% include js/all.js %}
-{% endif %}
-
-{% if page.layout == 'category' %}
-  {% include js/category.js %}
-{% endif %}
-
 {% if page.layout == 'writer' %}
   {% include js/to-markdown.js %}
   {% include js/writer.js %}
-{% endif %}
-
-{% if page.layout == 'article' %}
-  {% include js/article.js %}
 {% endif %}
 </script>
 
