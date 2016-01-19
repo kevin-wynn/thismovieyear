@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Ant-Man"
+date: July 17th, 2015
+score: 3
+category:
+- movie
+- Science Fiction
+- Action
+- Adventure
+actors:
+- Paul Rudd
+- Michael Douglas
+- Evangeline Lilly
+actorsImages:
+- http://image.tmdb.org/t/p/w300/oUJyLVn3kCmQuFeug4SBIo7Tc02.jpg
+- http://image.tmdb.org/t/p/w300/nmlitv4g2jXO3sJrnA9g980j2uc.jpg
+- http://image.tmdb.org/t/p/w300/h8GKLhndAVyVRU8xrgWXnkVT0pl.jpg
+overview: Armed with the astonishing ability to shrink in scale but increase in strength, con-man Scott Lang must embrace his inner-hero and help his mentor, Dr. Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.
+poster: http://image.tmdb.org/t/p/w500/D6e8RJf2qUstnfkTslTXNTUAlT.jpg/
+backdrop: http://image.tmdb.org/t/p/original/kvXLZqY0Ngl1XSw7EaMQO0C1CCj.jpg
+---

@@ -1,0 +1,152 @@
+.home {
+  h2 {
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $red;
+    font-weight: 500;
+  }
+
+  .recent-movies {
+
+    .posters {
+      margin-top: 15px;
+
+      .active-panel {
+        h3 {
+          font-size: 16px;
+          font-style: italic;
+        }
+
+        .score {
+          font-size: 55px;
+
+          .one .fa {
+            color: $red;
+          }
+
+          .two .fa {
+            color: $orange;
+          }
+
+          .three .fa {
+            color: $yellow;
+          }
+
+          .four .fa {
+            color: $green
+          }
+
+          .five .fa {
+            color: $blue;
+          }
+        }
+      }
+    }
+
+    .poster-container {
+      position: relative;
+      margin-top: 15px;
+      height: 300px;
+
+      .poster {
+        padding: 0;
+        margin-bottom: 5px;
+      }
+
+      .posterItem {
+        height: 260px;
+      }
+
+      .title {
+        font-size: 12px;
+        margin-bottom: 0;
+      }
+
+      #movieRelease {
+        font-size: 12px;
+      }
+
+      #movieDescription {
+        font-size: 12px;
+      }
+
+      .score {
+        font-size: 15px;
+
+        .one .fa {
+          color: $red;
+        }
+
+        .two .fa {
+          color: $orange;
+        }
+
+        .three .fa {
+          color: $yellow;
+        }
+
+        .four .fa {
+          color: $green
+        }
+
+        .five .fa {
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .recent-articles {
+
+    .article-container {
+
+      margin-top: 15px;
+
+      h3 {
+        margin-bottom: 0px;
+      }
+
+      .article-poster {
+        padding: 0;
+        height: 200px;
+        img {
+          height: 200px;
+          object-fit: cover;
+        }
+        a {
+          display: inline-block;
+        }
+      }
+
+      .article-content {
+        font-size: 12px;
+      }
+
+      .score {
+        font-size: 15px;
+
+        .one .fa {
+          color: $red;
+        }
+
+        .two .fa {
+          color: $orange;
+        }
+
+        .three .fa {
+          color: $yellow;
+        }
+
+        .four .fa {
+          color: $green
+        }
+
+        .five .fa {
+          color: $blue;
+        }
+      }
+    }
+  }
+}

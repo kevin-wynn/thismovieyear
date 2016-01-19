@@ -1,0 +1,186 @@
+.post {
+  margin-top: 25px;
+
+  .go-back {
+    color: $brand-link-color;
+    font-size: 12px;
+  }
+
+  .post-header {
+      margin-bottom: $spacing-unit;
+  }
+
+  .post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    display: inline-block;
+  }
+
+  .post-tagline {
+    color: lighten(#999, 20%);
+  }
+
+  .movie-year {
+    font-size: 12px;
+    margin-left: 10px;
+    color: $orange;
+  }
+
+  .actor-details {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .actor-info {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .actor-image {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: url('/assets/images/no-actor.jpg') no-repeat center center;
+    background-size: cover;
+
+    img {
+      width:100px;
+      height: auto;
+      margin-top: -25px;
+    }
+  }
+
+  .actor-name {
+    text-align: center;
+  }
+
+  .post-content {
+      margin-bottom: $spacing-unit;
+
+      h1 {
+        margin-bottom: 0px;
+      }
+
+      h2 {
+          margin-bottom: 0px;
+          font-style: italic;
+      }
+
+      .score {
+        font-size: 55px;
+        display: inline-block;
+
+        .one .fa {
+          color: $red;
+        }
+
+        .two .fa {
+          color: $orange;
+        }
+
+        .three .fa {
+          color: $yellow;
+        }
+
+        .four .fa {
+          color: $green
+        }
+
+        .five .fa {
+          color: $blue;
+        }
+      }
+
+      .score-tag {
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 10px;
+        width: 50%;
+        font-style: italic;
+        color: $orange;
+      }
+  }
+
+  .article-content {
+    h2 {
+      color: $red;
+      font-size: 28px;
+      font-style: normal;
+    }
+    h3 {
+      font-size: 24px;
+    }
+
+    .fa {
+      color: $red;
+      font-size: 25px;
+      margin-right: 5px;
+    }
+  }
+
+  .article-title {
+    margin-bottom: 0px;
+    .post-title {
+      font-size: 28px;
+      letter-spacing: -1px;
+      display: inline-block;
+      line-height: 1.75;
+      font-weight: 500;
+      color: $red;
+    }
+  }
+
+  .article-score {
+    .score {
+      font-size: 40px;
+      display: inline-block;
+      line-height: 0;
+
+      .one .fa {
+        color: $red;
+      }
+
+      .two .fa {
+        color: $orange;
+      }
+
+      .three .fa {
+        color: $yellow;
+      }
+
+      .four .fa {
+        color: $green
+      }
+
+      .five .fa {
+        color: $blue;
+      }
+    }
+  }
+
+  .article-poster {
+
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+
+.article {
+  .row {
+    margin: 0;
+  }
+}
+
+.go-home {
+  text-align: right;
+  margin-top: 25px;
+}

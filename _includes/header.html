@@ -1,0 +1,24 @@
+<header class="site-header">
+
+  <div class="layered-header">
+    <div class="wrapper site-title">
+      <a class="title-text" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+
+  </div>
+
+  <div class="top-movie-posters header-background">
+    <div class="overlay"></div>
+    <div class="triangle-overlay-yellow"></div>
+    <div class="triangle-overlay-blue"></div>
+    <ul id="interiorBackdrop" class="poster-line interior-poster">
+      {% for post in site.categories.movie limit:4 %}
+        <li><img src="{{ post.poster }}"/></li>
+      {% endfor %}
+    </ul>
+    <div class="bottom-border">
+      <div class="green section"></div><div class="blue section"></div><div class="purple section"></div><div class="orange section"></div><div class="red section"></div>
+    </div>
+  </div>
+
+</header>

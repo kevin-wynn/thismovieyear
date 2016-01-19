@@ -1,0 +1,261 @@
+.site-header {
+  position: relative;
+
+  .wrapper {
+    padding: 0;
+  }
+
+  .interior-poster {
+    background-size: cover;
+    background-position: center center;
+    z-index: -200;
+    position: relative;
+
+    .loading {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      z-index: 9999999;
+
+      .fa {
+        font-size: 40px;
+        margin-top: 125px;
+      }
+    }
+  }
+
+  .layered-header {
+
+    position: absolute;
+    z-index: 99999999;
+
+    .site-title {
+      position: relative;
+      top: 75px;
+      height: 75px;
+      width: 100%;
+      margin-left: 25px;
+
+        .title-text {
+          font-size: 50px;
+          color: #fff;
+          line-height: 56px;
+          display: inline-block;
+          font-family: "museo-sans-condensed",sans-serif;
+          font-weight: 100;
+        }
+
+        .category-navigation {
+          display: inline-block;
+          margin-left: 20px;
+
+          .selector {
+            color: $brand-link-color;
+            font-weight: 100;
+            position: relative;
+            width: 100px;
+            display: block;
+            cursor: pointer;
+
+            &:after {
+              position: absolute;
+              font-family: 'FontAwesome';
+              content:  "\f107";
+              right: 0;
+              color: $brand-link-color;
+            }
+          }
+
+          ul {
+            display: none;
+
+            li {
+
+
+            }
+          }
+        }
+
+        .back {
+          font-size: 10px;
+          font-weight: 100;
+          color: #fff;
+          line-height: 56px;
+          position: absolute;
+          bottom: 5px;
+          margin-left: -50px;
+          a:link, a:visited, a:active, a:hover {
+            color: $brand-link-color;
+          }
+        }
+    }
+
+    .site-nav {
+        width: 100%;
+        line-height: 56px;
+        letter-spacing: .5px;
+        font-weight: 200;
+
+        .menu-icon {
+            display: none;
+        }
+
+        .page-link {
+            color: $text-color;
+            line-height: $base-line-height;
+
+            // Gaps between nav items, but not on the last one
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+
+        @include media-query($on-palm) {
+            position: absolute;
+            top: 9px;
+            right: $spacing-unit / 2;
+            background-color: $background-color;
+            border: 1px solid $grey-color-light;
+            border-radius: 5px;
+            text-align: right;
+
+            .menu-icon {
+                display: block;
+                float: right;
+                width: 36px;
+                height: 26px;
+                line-height: 0;
+                padding-top: 10px;
+                text-align: center;
+
+                > svg {
+                    width: 18px;
+                    height: 15px;
+
+                    path {
+                        fill: $grey-color-dark;
+                    }
+                }
+            }
+
+            .trigger {
+                clear: both;
+                display: none;
+            }
+
+            &:hover .trigger {
+                display: block;
+                padding-bottom: 5px;
+            }
+
+            .page-link {
+                display: block;
+                padding: 5px 10px;
+
+                &:not(:last-child) {
+                    margin-right: 0;
+                }
+                margin-left: 20px;
+            }
+        }
+    }
+
+  }
+
+
+  .top-movie-posters, .bottom-movie-posters {
+
+    position: relative;
+    overflow: hidden;
+
+    .overlay {
+      background: rgba(0,0,0,.7);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 5555;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: block;
+      height: 150px;
+      overflow: hidden;
+
+      li {
+
+        width: 25%;
+        height: 150px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        float: left;
+        position: relative;
+
+        img {
+          display: block;
+          max-width: 100%;
+          min-width: 100%;
+          width: 100%;
+        }
+      }
+    }
+
+    .bottom-border{
+      height: 10px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      z-index: 999999999;
+      display: block;
+
+      .section {
+        display: inline-block;
+        position: relative;
+        height: 10px;
+        padding: 0;
+        margin: 0;
+      }
+      .green {
+        background: $green;
+        width: 30%;
+      }
+      .blue {
+        background: $blue;
+        width: 40%;
+      }
+      .purple {
+        background: $purple;
+        width: 10%;
+      }
+      .orange {
+        background: $orange;
+        width: 10%;
+      }
+      .red {
+        background: $red;
+        width: 10%;
+      }
+    }
+  }
+
+  #interiorBackdrop {
+
+    position: relative;
+
+    .loading {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+
+      .fa {
+        font-size: 40px;
+        margin-top: 50%;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Spectre"
+date: October 26th, 2015
+score: 4
+category:
+- movie
+- Documentary
+actors:
+- Daniel Craig
+- Christoph Waltz
+- Léa Seydoux
+actorsImages:
+- http://image.tmdb.org/t/p/w300/wbcfraBpA2n8OCec3LjEsFzuqCN.jpg
+- http://image.tmdb.org/t/p/w300/bPtNS4p3CEDt3Uo9khMCLyQUa0W.jpg
+- http://image.tmdb.org/t/p/w300/19gU2MSmsauB9TIh8gcd8JzvD2g.jpg
+overview: A cryptic message from Bond’s past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE.
+poster: http://image.tmdb.org/t/p/w500/mSvpKOWbyFtLro9BjfEGqUw5dXE.jpg/
+backdrop: http://image.tmdb.org/t/p/original/wVTYlkKPKrljJfugXN7UlLNjtuJ.jpg
+---

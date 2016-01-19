@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include post-header.html %}
+
+    <div class="container">
+      {% include sidebar-navigation.html %}
+      <div class="col-md-8 article">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="row">
+              <header class="post-header">
+                <div class="col-md-8 article-title">
+                  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1><span id="releaseYearContainer" class="movie-year"></span>
+                </div>
+                <div class="col-md-4 article-score">
+                  <p class="score">
+                    {% if page.score == 1 %}
+                      <span title="One star rating, not a fan, in my opinion... Don't get too worked up on seeing this one." class="one"><i class="fa fa-star"></i></span>
+                    {% elsif page.score == 2 %}
+                      <span title="Two stars? Pretty good! But don't rush out to see it in theaters or go pay to rent this one... It's probably on Netflix or Prime anyways." class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                    {% elsif page.score == 3 %}
+                      <span title="Three stars! Hell yeah! Bust down the doors folks, this is a must see in theaters. OR - Go buy it, go rent it, whatever you gotta do, you gotta see this one!" class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                    {% endif %}
+                  </p>
+                  <p class="score-tag">{{ page.score_tag }}</p>
+                  <p class="movie-info"></p>
+                </div>
+              </header>
+            </div>
+            <div class="row">
+              <div class="post-content article-content" itemprop="articleBody">
+                {{ content }}
+              </div>
+            </div>
+
+        </article>
+      </div>
+      {% include sidebar-comingsoon.html %}
+    </div>
+
+  {% include footer.html %}
+
+  </body>
+
+</html>
+
+{% include footer-resources.html %}

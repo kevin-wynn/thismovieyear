@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include post-header.html %}
+
+    <div class="container">
+      {% include sidebar-navigation.html %}
+      <div class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+          <div class="row">
+            <header class="post-header">
+              <div id="posterContainer" class="col-md-4 poster">
+                <img src="{{ page.poster }}"/>
+              </div>
+              <div class="col-md-8 post-content">
+                <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1><span class="movie-year">{{ page.date | date: '%B %d, %Y' }}</span>
+                <p class="genres">
+                  {% if page.category | size gt 1 %}
+                    {{ page.category | array_to_sentence_string | remove: 'movie,' | remove: 'movie and' }}
+                  {% endif %}
+                </p>
+                <p class="score">
+                  {% if page.score == 1 %}
+                    <span class="one"><i class="fa fa-star"></i></span>
+                  {% elsif page.score == 2 %}
+                    <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  {% elsif page.score == 3 %}
+                    <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  {% elsif page.score == 4 %}
+                    <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  {% elsif page.score == 5 %}
+                    <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  {% endif %}
+                </p>
+                <p class="movie-info">{{ page.overview }}</p>
+                  {% for actorsImages_hash in page.actorsImages %}
+                    {% for actorsImages in actorsImages_hash %}
+                      <div class="col-md-4">
+                        <div class="actor-image">
+                          <img class="actor" src="{{ actorsImages }}"/>
+                        </div>
+                      </div>
+                    {% endfor %}
+                  {% endfor %}
+                  {% for actors_hash in page.actors %}
+                    {% for actors in actors_hash %}
+                      <div class="col-md-4 actor-name">
+                        <span>{{ actors }}</span>
+                      </div>
+                    {% endfor %}
+                  {% endfor %}
+              </div>
+            </header>
+            <div class="post-content" itemprop="articleBody">
+              {{ content }}
+            </div>
+          </div>
+        </article>
+      </div>
+      {% include sidebar-comingsoon.html %}
+    </div>
+
+  {% include footer.html %}
+
+  </body>
+
+</html>
+
+{% include post-footer-resources.html %}

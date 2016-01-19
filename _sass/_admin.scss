@@ -1,0 +1,257 @@
+.admin {
+
+  .selected {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+  }
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  h1 {
+
+  }
+
+  h2 {
+
+  }
+
+  ul {
+    margin-left: 0px;
+
+    li {
+      display: block;
+      margin-top: 25px;
+    }
+  }
+
+  .search-box {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 10px;
+    font-size: 20px;
+    transition: .2s ease all;
+    &:focus {
+      outline: 0;
+      border: none;
+      border-bottom: 2px solid $brand-link-color;
+    }
+  }
+
+  .search-button {
+    display: inline-block;
+    background: $blue;
+    color: #fff;
+    line-height: 50px;
+    vertical-align: top;
+    padding: 0px 35px;
+    cursor: pointer;
+    transition: .2s ease all;
+    border-radius: 3px;
+    text-align: center;
+    &:hover {
+      background: darken($brand-link-color, 10%);
+    }
+  }
+
+  .undo {
+    display: inline-block;
+    color: $blue;
+    cursor: pointer;
+    transition: .2s ease all;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+
+  .save-button {
+    display: inline-block;
+    background: $blue;
+    color: #fff;
+    line-height: 50px;
+    vertical-align: top;
+    padding: 0px 35px;
+    cursor: pointer;
+    transition: .2s ease all;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 15px;
+    right: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 99999999999;
+    &:hover {
+      background: darken($brand-link-color, 10%);
+    }
+  }
+
+  #actorContainer {
+    display: block;
+    height: 130px;
+  }
+
+  #saveContainer {
+    display: block;
+  }
+
+  #posterContainer {
+    // background-size: cover;
+  }
+
+  #backdropContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
+    opacity: .2;
+    background-size: cover;
+  }
+
+  .results {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .poster-item {
+      height: 330px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      position: relative;
+      overflow: hidden;
+      img {
+        cursor: pointer;
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+      }
+    }
+    .poster-text {
+      position: relative;
+      transition: .2s ease all;
+      display: none;
+      margin-top: 15px;
+
+      .rating {
+        display: inline-block;
+        margin-left: 20px;
+
+        .fa {
+          font-size: 15px;
+          color: $red;
+          margin-left: -5px;
+        }
+      }
+    }
+
+    .actor-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: auto;
+      img {
+        width: 100%;
+        height: auto;
+        margin-top: -10px;
+      }
+      .no-actor {
+        margin-top: 0px;
+      }
+    }
+    .actor-name {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .result-item {
+    margin-top: 25px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .2s ease all;
+    position: relative;
+    &:hover {
+      background: #ececec;
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+
+  .no-image-found {
+    background: #e4e9ec;
+    color: #999;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 50px;
+  }
+
+  .loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.8);
+    z-index: 99999;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 100px;
+  }
+
+  .writer {
+
+    .loader {
+      font-size: 70px;
+      position: relative;
+      padding-top: 0px;
+      text-align: inherit;
+    }
+
+    #movieDetails {
+      h2 {
+        margin-bottom: 5px;
+      }
+      h3 {
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+
+    .search-box {
+      width: 100%;
+    }
+
+    .textbox {
+      margin-top: 25px;
+    }
+
+    .save-button {
+      margin-top: 25px;
+      display: inline-block;
+      background: $brand-link-color;
+      color: #fff;
+      line-height: 50px;
+      vertical-align: top;
+      padding: 0px 35px;
+      cursor: pointer;
+      transition: .2s ease all;
+      border-radius: 3px;
+      &:hover {
+        background: darken($brand-link-color, 10%);
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="home">
+
+    {% include header.html %}
+
+  <div class="row">
+    <div class="container recent-movies">
+      {% include sidebar-navigation.html %}
+      <div class="col-md-8 posters ">
+        <h2>Recent Movies</h2>
+        {% for post in site.categories.movie limit:8 %}
+        <div class="col-md-3 poster-container">
+          <div class="poster">
+            <a class="" href="{{ post.url | prepend: site.baseurl }}">
+              <img src="{{ post.poster }}"/>
+            </a>
+          </div>
+          <h2 class="title">{{ post.title }}</h2>
+          <div>{{ post.date | date: '%B %d, %Y' }}</div>
+          <p class="score">
+            {% if post.score == 1 %}
+              <span class="one"><i class="fa fa-star"></i></span>
+            {% elsif post.score == 2 %}
+              <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% elsif post.score == 3 %}
+              <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% elsif post.score == 4 %}
+              <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% elsif post.score == 5 %}
+              <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% endif %}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+      {% include sidebar-comingsoon.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="container recent-articles">
+      <div class="col-md-8 col-md-offset-1 article-container">
+        <h2>Recent Articles</h2>
+        {% for post in site.categories.article limit:4 %}
+          {% if post.written == true %}
+            <div class="col-md-6 article-container ">
+              <h3>{{ post.title }}</h3>
+              <div class="col-md-5 article-poster ">
+                <a class="" href="{{ post.url | prepend: site.baseurl }}">
+                  <img src="{{ post.article_poster }}"/>
+                </a>
+              </div>
+              <div class="col-md-7  article-content">
+                <p>{{ post.content | strip_html | truncatewords: 45 }}</p>
+                <a href="{{ post.url }}">Read full article...</a>
+                <p class="score">
+                  {% if post.score == 1 %}
+                    <span title="One star rating, not a fan, in my opinion... Don't get too worked up on seeing this one." class="one"><i class="fa fa-star"></i></span>
+                  {% elsif post.score == 2 %}
+                    <span title="Two stars? Pretty good! But don't rush out to see it in theaters or go pay to rent this one... It's probably on Netflix or Prime anyways." class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  {% elsif post.score == 3 %}
+                    <span title="Three stars! Hell yeah! Bust down the doors folks, this is a must see in theaters. OR - Go buy it, go rent it, whatever you gotta do, you gotta see this one!" class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  {% endif %}
+                </p>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+{% include footer-resources.html %}

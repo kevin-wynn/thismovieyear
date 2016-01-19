@@ -1,0 +1,15 @@
+<div class="col-md-3 coming-soon">
+  <h2>Coming Soon</h2>
+  <ul>
+  {% for post in site.posts %}
+    {% if post.written == false %}
+      <li>
+        <img src="{{ post.article_poster }}"/>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.date | date: '%B %d, %Y' }}<br>
+           {{ post.teaser }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

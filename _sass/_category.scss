@@ -1,0 +1,70 @@
+.category {
+  margin-top: 15px;
+  h2 {
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $red;
+    font-weight: 500;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .posts {
+
+    .poster-container {
+      position: relative;
+      height: 300px;
+      margin-top: 15px;
+
+      .poster {
+        padding: 0;
+        margin-bottom: 5px;
+      }
+
+      .title {
+        font-size: 12px;
+        margin-bottom: 0;
+      }
+
+      #movieRelease {
+        font-size: 12px;
+      }
+
+      #movieDescription {
+        font-size: 12px;
+      }
+
+      .score {
+        font-size: 15px;
+
+        .one .fa {
+          color: $red;
+        }
+
+        .two .fa {
+          color: $orange;
+        }
+
+        .three .fa {
+          color: $yellow;
+        }
+
+        .four .fa {
+          color: $green
+        }
+
+        .five .fa {
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .category-title {
+    text-transform: capitalize;
+  }
+}

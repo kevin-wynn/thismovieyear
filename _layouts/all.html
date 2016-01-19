@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="home">
+
+    {% include header.html %}
+
+  <div class="row">
+    <div class="container recent-movies">
+      {% include sidebar-navigation.html %}
+      <div class="col-md-8 posters">
+        <h2>All Movies</h2>
+        {% for post in site.categories.movie %}
+        <div class="col-md-3 poster-container">
+          <div class="poster">
+            <a class="" href="{{ post.url | prepend: site.baseurl }}">
+              <img src="{{ post.poster }}"/>
+            </a>
+          </div>
+          <h2 class="title">{{ post.title }}</h2>
+          <div>{{ post.data }}</div>
+          <p class="score">
+            {% if post.score == 1 %}
+              <span class="one"><i class="fa fa-star"></i></span>
+            {% elsif post.score == 2 %}
+              <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% elsif post.score == 3 %}
+              <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% elsif post.score == 4 %}
+              <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% elsif post.score == 5 %}
+              <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% endif %}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+      {% include sidebar-comingsoon.html %}
+    </div>
+  </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+{% include footer-resources.html %}

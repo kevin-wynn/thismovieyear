@@ -1,0 +1,90 @@
+.site-footer {
+    padding: $spacing-unit 0;
+    position: relative;
+    overflow: hidden;
+
+    p {
+      font-size: 12px;
+    }
+
+    .bottom-border{
+      height: 5px;
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      z-index: 999999999;
+      display: block;
+      margin-bottom: 25px;
+
+      .section {
+        display: inline-block;
+        position: relative;
+        height: 5px;
+        padding: 0;
+        margin: 0;
+      }
+      .green {
+        background: #26C281;
+        width: 30%;
+      }
+      .blue {
+        background: #59ABE3;
+        width: 40%;
+      }
+      .purple {
+        background: #BF55EC;
+        width: 10%;
+      }
+      .orange {
+        background: #F27935;
+        width: 10%;
+      }
+      .red {
+        background: #D64541;
+        width: 10%;
+      }
+    }
+
+    .contact-list,
+    .social-media-list {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    #mc_embed_signup {
+
+      form {
+        padding: 0;
+      }
+
+      input {
+        border: 1px solid #ccc;
+        border-radius: 2px;
+      }
+
+      input.email {
+        display: inline-block;
+        font: 300 12px/1.5 "museo-sans", Helvetica, Arial, sans-serif;
+        transition: .2s ease all;
+        &:focus {
+          border: 1px solid $blue;
+        }
+      }
+
+      .button {
+        background: $blue;
+        border: 0;
+        transition: .2s ease all;
+        height: 34px;
+        font: 300 12px/1.5 "museo-sans", Helvetica, Arial, sans-serif;
+        &:hover {
+          background: darken($blue, 25%);
+        }
+      }
+
+      input.button {
+        display: inline-block;
+      }
+    }
+
+}

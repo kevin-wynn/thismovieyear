@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include category-header.html %}
+    <div class="row">
+      <div class="container">
+        {% include sidebar-navigation.html %}
+        <div class="col-md-8 category">
+          {{content}}
+        </div>
+        {% include sidebar-comingsoon.html %}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+{% include footer-resources.html %}

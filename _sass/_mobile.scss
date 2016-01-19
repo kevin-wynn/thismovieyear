@@ -1,0 +1,52 @@
+@media screen and (max-width: $small-screen) {
+  .sidebar-categories, .coming-soon {
+    display: none;
+  }
+
+  .home .recent-movies .poster-container {
+    height: 820px;
+  }
+
+  .overlay {
+    background: $black !important;
+  }
+
+  .site-title {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  .site-header .top-movie-posters ul {
+
+  }
+}
+
+@media screen and (max-width: $tablet-size) {
+  .title-text {
+    font-size: 95px !important;
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: $phone-size) {
+  .title-text {
+    font-size: 70px !important;
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: $small-phone-size) {
+  .title-text {
+    font-size: 50px !important;
+    letter-spacing: 0px !important;
+    margin-left: 10px !important;
+  }
+
+  .site-title {
+
+  }
+
+  .home .recent-movies .poster-container {
+    height: 560px;
+  }
+}
