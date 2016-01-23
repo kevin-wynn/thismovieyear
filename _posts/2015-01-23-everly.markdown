@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Everly"
+date: January 23rd, 2015
+score: 2
+category: 
+- movie
+- Thriller
+- Action
+actors: 
+- Salma Hayek
+- Hiroyuki Watanabe
+- Jennifer Blanc
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/ktz50VZWclF5MX33waImksygk55.jpg
+- http://image.tmdb.org/t/p/w300/yFPTPGg04TuZJOvYb4zH04aBwK5.jpg
+- http://image.tmdb.org/t/p/w300/uasHB6t757gRtUFToPDpHkulo59.jpg
+overview: After she betrays a powerful mob boss, a woman matches wits and weaponry with a legion of killers who are out to collect the bounty on the heads of her and her family.
+poster: http://image.tmdb.org/t/p/w500/dU7fJCSeZCjnoqb57HUQCZwwAhA.jpg/
+backdrop: http://image.tmdb.org/t/p/original/pIZTDlgwbGojhUymHkPrdpTwdIV.jpg
+---

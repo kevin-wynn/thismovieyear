@@ -803,6 +803,22 @@ pre {
   padding: 0 !important;
   margin: 0 !important; }
 
+.visible {
+  display: inline-block; }
+
+.show-more-container {
+  text-align: center; }
+  .show-more-container .show-more {
+    color: #fff;
+    background: #59ABE3;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease all; }
+    .show-more-container .show-more:hover {
+      background: #2d95dc; }
+
 .categories {
   text-align: right;
   margin-top: 15px;

@@ -8,3 +8,24 @@
    padding: 0 !important;
    margin: 0 !important;
 }
+
+.visible {
+  display: inline-block;
+}
+
+.show-more-container {
+  text-align: center;
+
+  .show-more {
+    color: #fff;
+    background: $blue;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease all;
+    &:hover {
+      background: darken($blue, 10%);
+    }
+  }
+}

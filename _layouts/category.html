@@ -5,14 +5,20 @@
 
   <body>
 
-    {% include category-header.html %}
+    {% include header.html %}
     <div class="row">
       <div class="container">
         {% include sidebar-navigation.html %}
-        <div class="col-md-8 category">
+        <div class="col-md-8 category" id="posterContainer">
           {{content}}
         </div>
         {% include sidebar-comingsoon.html %}
+      </div>
+
+      <div class="col-md-8 col-md-offset-1 show-more-container">
+        <div class="show-more" id="showMore">
+          Show More
+        </div>
       </div>
     </div>
 

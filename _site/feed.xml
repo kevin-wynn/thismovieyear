@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jan 2016 23:24:16 -0600</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2016 23:24:16 -0600</lastBuildDate>
+    <pubDate>Sat, 23 Jan 2016 14:37:47 -0600</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 14:37:47 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -223,6 +223,25 @@
       </item>
     
       <item>
+        <title>The Last Witch Hunter</title>
+        <description>
+</description>
+        <pubDate>Fri, 23 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/movie/fantasy/action/adventure/the-last-witch-hunter.html</link>
+        <guid isPermaLink="true">http://localhost:4000/movie/fantasy/action/adventure/the-last-witch-hunter.html</guid>
+        
+        
+        <category>movie</category>
+        
+        <category>Fantasy</category>
+        
+        <category>Action</category>
+        
+        <category>Adventure</category>
+        
+      </item>
+    
+      <item>
         <title>Crimson Peak</title>
         <description>
 </description>
@@ -261,25 +280,6 @@
         <category>War</category>
         
         <category>Drama</category>
-        
-      </item>
-    
-      <item>
-        <title>The Martian</title>
-        <description>
-</description>
-        <pubDate>Fri, 02 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/movie/drama/adventure/science%20fiction/the-martian.html</link>
-        <guid isPermaLink="true">http://localhost:4000/movie/drama/adventure/science%20fiction/the-martian.html</guid>
-        
-        
-        <category>movie</category>
-        
-        <category>Drama</category>
-        
-        <category>Adventure</category>
-        
-        <category>Science Fiction</category>
         
       </item>
     
