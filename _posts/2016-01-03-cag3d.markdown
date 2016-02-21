@@ -8,6 +8,7 @@ category:
 article_score: 3
 year: 2015
 article_poster: /assets/images/article_assets/cag3d/cag3d_poster.jpg
+poster: /assets/images/article_assets/cag3d/cag3d_poster.jpg
 ---
 If you plan on watching 5 back to back mystery Nicolas Cage movies, SIGN ME UP. I'm not saying this ironically either. I'd easily put him in my top 10 favorites. I mean lets be real the guy can take any character he plays and somehow put the craziest accent, weirdest twist, and most outrageous outburts; and somehow it all fits in perfectly...
 

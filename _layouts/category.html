@@ -10,6 +10,10 @@
       <div class="container">
         {% include sidebar-navigation.html %}
         <div class="col-md-8 category" id="posterContainer">
+          <div class="search-results">
+            <div class="search-title"><h2>Search Results</h2></div>
+            <div id="results-container"></div>
+          </div>
           {{content}}
         </div>
         {% include sidebar-comingsoon.html %}

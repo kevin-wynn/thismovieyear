@@ -232,6 +232,7 @@ $(function() {
 
         function saveStuff(){
             article = $('.selected').find('[data-overview]').html();
+            article = article.replace(":", ",");
             posterUrlContainer = $('.selected').find('#posterUrlContainer').attr('src');
             backdropData = $('.selected').find('#backdropContainer').data('backdrop');
             releaseDateFinal = $('.selected').find('[data-release-date]').data('release-date');

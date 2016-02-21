@@ -1,0 +1,20 @@
+---
+layout: post
+title: "The Witch"
+date: February 19th, 2016
+score: 3
+category:
+- movie
+- Horror
+actors:
+- Anya Taylor-Joy
+- Ralph Ineson
+- Kate Dickie
+actorsImages:
+- http://image.tmdb.org/t/p/w300/kqKgj8pbpGUzBvXckgtKJN3eajs.jpg
+- http://image.tmdb.org/t/p/w300/zqvpAuiocN9hHjg6f9Dqu2S8y9x.jpg
+- http://image.tmdb.org/t/p/w300/nEcvqwrXakqhOX8fa3WZIhGAjA1.jpg
+overview: New England in the 1630s, William and Katherine lead a devout Christian life with five children, homesteading on the edge of an impassable wilderness. When their newborn son vanishes and crops fail, the family turns on one another. Beyond their worst fears, a supernatural evil lurks in the nearby wood.
+poster: http://image.tmdb.org/t/p/w500/jfGsfzq5JrMAKbAOV2TmhsOs3tf.jpg/
+backdrop: http://image.tmdb.org/t/p/original/dIkFrbXX9OrUqPcrunJ6GSweTML.jpg
+---

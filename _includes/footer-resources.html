@@ -1,4 +1,7 @@
 <script>
+// Script pointing to jekyll-search.js
+{% include js/jekyll-search.js %}
+
 {% include js/jquery.min.js %}
 {% include js/main.js %}
 {% include js/themoviedb.js %}
@@ -29,4 +32,10 @@
 
   ga('create', 'UA-67626517-2', 'auto');
   ga('send', 'pageview');
+
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
 </script>

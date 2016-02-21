@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Дневной Дозор"
+date: January 1st, 2006
+score: 4
+category: 
+- movie
+- Adventure
+- Fantasy
+- Drama
+- Horror
+- Action
+- Thriller
+- Science Fiction
+actors: 
+- Konstantin Khabenskiy
+- Mariya Poroshina
+- Vladimir Menshov
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/dSZhT7njGfcOCqvRhWrX2WANVOt.jpg
+- http://image.tmdb.org/t/p/w300/rTPyJduXbBb5pNX9pBLk4knUBdr.jpg
+- http://image.tmdb.org/t/p/w300/veJPIWsas025PctmBpP6LpZrR6T.jpg
+overview: A man who serves in the war between the forces of Light and Dark comes into possession of a device that can restore life to Moscow, which was nearly destroyed by an apocalyptic event.
+poster: http://image.tmdb.org/t/p/w500/9TBOWJUa4igq9FkDWhZRK72K4vQ.jpg/
+backdrop: http://image.tmdb.org/t/p/original/18S7W0fuefsW4VA9b5lSjNgXR67.jpg
+---
