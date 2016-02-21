@@ -11,10 +11,7 @@
     <div class="container recent-movies">
       {% include sidebar-navigation.html %}
       <div class="col-md-8 posters ">
-        <div class="col-md-12 search-results">
-          <div class="search-title"><h2>Search Results</h2></div>
-          <div id="results-container"></div>
-        </div>
+        {% include search-container.html %}
         <h2>Recent Movies</h2>
         {% for post in site.categories.movie limit:8 %}
         <div class="col-md-3 poster-container">
