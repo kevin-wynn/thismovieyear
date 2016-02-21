@@ -3,8 +3,22 @@
     display: none;
   }
 
+  #search-container {
+    display: none;
+  }
+
+  .post .actor-images {
+    display: inline-block;
+    width: 32.7%;
+  }
+
+  .post .actor-name {
+    display: inline-block;
+    width: 32.7%;
+  }
+
   .home .recent-movies .poster-container {
-    height: 820px;
+    height: 600px;
   }
 
   .overlay {
