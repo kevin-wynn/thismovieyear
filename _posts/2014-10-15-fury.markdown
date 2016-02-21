@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Fury"
+date: October 15th, 2014
+score: 5
+category: 
+- movie
+- War
+- Drama
+- Action
+actors: 
+- Brad Pitt
+- Shia LaBeouf
+- Logan Lerman
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg
+- http://image.tmdb.org/t/p/w300/anP0tygzniIok6L3OxcSZ9TYCF3.jpg
+- http://image.tmdb.org/t/p/w300/cXdx9wov6TKnCp8u6bNVVuf1Hyj.jpg
+overview: Last months of World War II in April 1945. As the Allies make their final push in the European Theater, a battle-hardened U.S. Army sergeant in the 2nd Armored Division named Wardaddy commands a Sherman tank called "Fury" and its five-man crew on a deadly mission behind enemy lines. Outnumbered and outgunned, Wardaddy and his men face overwhelming odds in their heroic attempts to strike at the heart of Nazi Germany.
+poster: http://image.tmdb.org/t/p/w500/fIHF63oznk2PXlYM6pPfhnOB3SD.jpg/
+backdrop: http://image.tmdb.org/t/p/original/pKawqrtCBMmxarft7o1LbEynys7.jpg
+---

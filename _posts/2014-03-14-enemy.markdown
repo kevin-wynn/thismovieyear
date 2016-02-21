@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Enemy"
+date: March 14th, 2014
+score: 5
+category: 
+- movie
+- Thriller
+- Mystery
+actors: 
+- Jake Gyllenhaal
+- Mélanie Laurent
+- Sarah Gadon
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/wRgIPBzVzIIhWcdJAduPOKJJHsL.jpg
+- http://image.tmdb.org/t/p/w300/n10Yr6LtckIcgw3EdPxkVjwkBYS.jpg
+- http://image.tmdb.org/t/p/w300/4dXxOklDONdtXGvh0IDGM1BnbfD.jpg
+overview: Jake Gyllenhaal reteams with PRISONERS director Denis Villeneuve in this sexy and mind bending thriller. Adam Bell is a glum professor who has grown disinterested by his ordinary life. When Adam discovers a man who appears to be his double, the identical men meet and their lives become bizarrely and hauntingly intertwined. Gyllenhaal is transfixing playing both roles, journeying through a world both familiar and strange. The film’s final and unnerving image will not be soon forgotten by audiences. In the end, only one man can survive.
+poster: http://image.tmdb.org/t/p/w500/aQkyFHzNzZoMhxZ7c0IaK8BljED.jpg/
+backdrop: http://image.tmdb.org/t/p/original/buZgGbVwR46GSz6lX2TbYBjKNXP.jpg
+---

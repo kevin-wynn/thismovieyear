@@ -3,15 +3,15 @@ layout: post
 title: "Ex Machina"
 date: January 21st, 2015
 score: 4
-category:
+category: 
 - movie
 - Drama
 - Science Fiction
-actors:
+actors: 
 - Domhnall Gleeson
 - Oscar Isaac
 - Alicia Vikander
-actorsImages:
+actorsImages: 
 - http://image.tmdb.org/t/p/w300/vAvZLGZb6eik0DuIbLgqcSu9gRS.jpg
 - http://image.tmdb.org/t/p/w300/5dAYYV83K3cvsjFqHLbruV3GBmx.jpg
 - http://image.tmdb.org/t/p/w300/8qqUmSBTDSDfo9vHdaoy5YMJ6oP.jpg

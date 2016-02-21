@@ -7,7 +7,6 @@ category:
 - movie
 - Adventure
 - Drama
-- Thriller
 actors: 
 - Jason Clarke
 - Jake Gyllenhaal
@@ -18,5 +17,5 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/x8KKnvHyPvH16M6waAnY1OeCtA8.jpg
 overview: Inspired by the incredible events surrounding a treacherous attempt to reach the summit of the world's highest mountain, "Everest" documents the awe-inspiring journey of two different expeditions challenged beyond their limits by one of the fiercest snowstorms ever encountered by mankind. Their mettle tested by the harshest of elements found on the planet, the climbers will face nearly impossible obstacles as a lifelong obsession becomes a breathtaking struggle for survival.
 poster: http://image.tmdb.org/t/p/w500/t3ELL46AnqjS9djz1vEVh4MpKv0.jpg/
-backdrop: http://image.tmdb.org/t/p/original/fNByoFAFaJzNUxs6AGQ160zriIx.jpg
+backdrop: http://image.tmdb.org/t/p/original/uoEGDW5hgEjV14XVIaB0ImqSHgx.jpg
 ---
