@@ -5,7 +5,7 @@ $(document).ready(function(){
       actorContainer = $('#actorContainer'),
       loaderHtml = '<div class="close"><i class="fa fa-times"></i></div>',
       movieId, posterSize, baseUrl, buildBackdropUrlBase, backDrop, close, title, description,
-      individualActorName, actorImage, firstThree, cast, movieUrl;
+      individualActorName, actorImage, firstThree, cast, movieUrl, release, tagline, averageVote, wholeNumber;
   
   function errorCB(){
     console.log('there was an error: ', data);
@@ -36,18 +36,26 @@ $(document).ready(function(){
   }
   
   function buildMovieData(data){
+//    console.log(data);
+    
     backDrop = $.parseJSON(data).backdrop_path;
     backDrop = buildBackdropUrlBase + backDrop;
 
     title = $.parseJSON(data).title;
-    
+    release = $.parseJSON(data).release_date;
+    tagline = $.parseJSON(data).tagline;
     description = $.parseJSON(data).overview;
+    
+    averageVote = $.parseJSON(data).vote_average;
     
     detailsContainer.html('<div class="loader"><i class="fa fa-circle-o-notch fa-spin"></i></div>');
     detailsContainer.html( loaderHtml + 
                           '<div class="overlay"></div>' +
                           '<div id="movieDetails" class="selected-content">' +
                           '<div class="selected-title">' + title + '</div>' +
+                          '<div class="selected-tagline"><h2>' + tagline + '</h2></div>' +
+                          '<div class="selected-info">Release Date: <span class="release">' + release + '</span></div>' + 
+                          '<div id="popularVote" class="popular-vote">Popular Vote: </div>' +
                           '<div class="selected-description">' + description + '</div>' +
                           '</div>' +
                           '<img id="backDropImage" src=' + backDrop + '/>' +
@@ -59,6 +67,7 @@ $(document).ready(function(){
     }).blur()
     
     addCast();
+    addPopularVote();
     enableClose();
   }
   
@@ -83,6 +92,25 @@ $(document).ready(function(){
     }, errorCB);
     
     detailsContainer.show();
+  }
+  
+  function addPopularVote(){
+    // average voting stars
+    averageVote = Math.round(averageVote*2)/2;
+    
+    if(averageVote % 1 != 0){
+      wholeNumber = Math.floor(averageVote);
+      for (i = 0; i < wholeNumber/2; ++i) {
+        $('#popularVote').append('<i class="fa fa-star"></i>');
+      }
+      $('#popularVote').append('<i class="fa fa-star-half-o"></i>');
+      
+    } else {
+      wholeNumber = Math.floor(averageVote);
+      for (i = 0; i < wholeNumber/2; ++i) {
+        $('#popularVote').append('<i class="fa fa-star"></i>');
+      }
+    }
   }
   
   function enableClose(){

@@ -1,7 +1,4 @@
 <script>
-// Script pointing to jekyll-search.js
-{% include js/jekyll-search.js %}
-
 {% include js/jquery.min.js %}
 {% include js/main.js %}
 {% include js/themoviedb.js %}
@@ -11,6 +8,19 @@
 {% if page.layout == 'home' %}
   {% include js/home.js %}
   {% include js/vague.js %}
+
+  // Script pointing to jekyll-search.js
+  {% include js/jekyll-search.js %}
+{% endif %}
+
+{% if page.layout == 'category' %}
+  // Script pointing to jekyll-search.js
+  {% include js/jekyll-search.js %}
+{% endif %}
+
+{% if page.layout == 'all' %}
+  // Script pointing to jekyll-search.js
+  {% include js/jekyll-search.js %}
 {% endif %}
 
 {% if page.layout == 'admin' %}
@@ -37,10 +47,4 @@
 
   ga('create', 'UA-67626517-2', 'auto');
   ga('send', 'pageview');
-
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/search.json',
-  })
 </script>
