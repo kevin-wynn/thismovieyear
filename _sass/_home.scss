@@ -10,11 +10,12 @@
   
   .details {
     height: auto;
-    width: 100%;
+    width: 700px;
     display: none;
     position: relative;
     overflow: hidden;
     user-select: none;
+    margin-left: 15px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -70,6 +71,14 @@
       }
     }
     
+    .see-more {
+      position: absolute;
+      z-index: 99999;
+      color: $blue;
+      bottom: 10px;
+      left: 20px;
+    }
+    
     .selected-title {
       font-size: 35px;
       color: #fff;
@@ -79,7 +88,6 @@
     .selected-description {
       color: #fff;
       font-weight: 100;
-      font-size: 18px;
       width: 90%;
     }
     

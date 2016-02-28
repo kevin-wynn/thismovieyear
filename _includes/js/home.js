@@ -5,7 +5,7 @@ $(document).ready(function(){
       actorContainer = $('#actorContainer'),
       loaderHtml = '<div class="close"><i class="fa fa-times"></i></div>',
       movieId, posterSize, baseUrl, buildBackdropUrlBase, backDrop, close, title, description,
-      individualActorName, actorImage, firstThree, cast;
+      individualActorName, actorImage, firstThree, cast, movieUrl;
   
   function errorCB(){
     console.log('there was an error: ', data);
@@ -14,18 +14,18 @@ $(document).ready(function(){
   theMovieDb.configurations.getConfiguration(getConfig, errorCB)
   
   function getConfig(data) {
-//    console.log(data);
-    
     posterSize = $.parseJSON(data).images.poster_sizes.length-1,
     posterSize = $.parseJSON(data).images.poster_sizes[posterSize];
     baseUrl = $.parseJSON(data).images.base_url;
     buildBackdropUrlBase = baseUrl + 'w780';
   }
-
   
   allMovieIds.click(function(){
     movieId = $(this).attr("href"),
     movieId = movieId.substring(1);
+    
+    movieUrl = $(this).data("url");
+      
     getMovie();
   });
   
@@ -36,8 +36,6 @@ $(document).ready(function(){
   }
   
   function buildMovieData(data){
-    console.log(data);
-    
     backDrop = $.parseJSON(data).backdrop_path;
     backDrop = buildBackdropUrlBase + backDrop;
 
@@ -52,7 +50,8 @@ $(document).ready(function(){
                           '<div class="selected-title">' + title + '</div>' +
                           '<div class="selected-description">' + description + '</div>' +
                           '</div>' +
-                          '<img id="backDropImage" src=' + backDrop + '/>');
+                          '<img id="backDropImage" src=' + backDrop + '/>' +
+                          '<p class="see-more"><a href="' + movieUrl + '">See Review <i class="fa fa-angle-double-right"></i></a></p>');
     
     $('#backDropImage').Vague({
         intensity: 5,
@@ -93,4 +92,12 @@ $(document).ready(function(){
     }); 
   }
     
+});
+
+$(window).load(function(){
+  var allMovieIds = $("a[id^='movieId']");
+  function setDefaultFirst(){
+    allMovieIds.first().trigger('click');
+  };
+  setDefaultFirst();
 });
