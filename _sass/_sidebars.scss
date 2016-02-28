@@ -8,7 +8,6 @@
     li {
       display: block;
       text-transform: uppercase;
-      margin-top: 10px;
       font-size: 10px;
       &:first-child {
         margin-top: 0px;
@@ -22,6 +21,20 @@
 
   .sort-year {
     border-top: 1px solid #ccc;
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    color: $blue;
+  }
+  
+  .dropdown-menu {
+    z-index: 9999999999;
+    
+    li a{
+      color: $blue;
+    }
   }
 }
 

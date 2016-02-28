@@ -15,6 +15,18 @@
           <li><img src="{{ post.poster }}"/></li>
         {% endfor %}
       </ul>
+    {% elsif page.layout == 'all' %}
+      <ul id="interiorBackdrop" class="poster-line interior-poster">
+        {% for post in site.categories.movie limit:4 %}
+          <li><img src="{{ post.poster }}"/></li>
+        {% endfor %}
+      </ul>
+    {% elsif page.layout == 'category' %}
+      <ul id="interiorBackdrop" class="poster-line interior-poster">
+        {% for post in site.categories.movie limit:4 %}
+          <li><img src="{{ post.poster }}"/></li>
+        {% endfor %}
+      </ul>
     {% else %}
       <ul id="interiorBackdrop" class="poster-line interior-poster">
         {% for post in site.categories.movie limit:1 %}
