@@ -5,7 +5,7 @@ written: true
 date:   2016-01-16
 category:
 - article
-article_score: 3
+article_score: 4
 year: 2016
 article_poster: /assets/images/article_assets/godfather_night/godfather_night_poster.jpg
 poster: /assets/images/article_assets/godfather_night/godfather_night_poster.jpg

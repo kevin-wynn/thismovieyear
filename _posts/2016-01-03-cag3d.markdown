@@ -5,7 +5,7 @@ written: true
 date:   2016-01-03
 category:
 - article
-article_score: 3
+article_score: 5
 year: 2015
 article_poster: /assets/images/article_assets/cag3d/cag3d_poster.jpg
 poster: /assets/images/article_assets/cag3d/cag3d_poster.jpg

@@ -3,7 +3,7 @@
   <div class="bottom-border">
     <div class="green section"></div><div class="blue section"></div><div class="purple section"></div><div class="orange section"></div><div class="red section"></div>
   </div>
-
+  
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
@@ -41,6 +41,23 @@
         </div>
       </div>
     </div>
+  </div>
+  
+  <div class="top-movie-posters header-background">
+    <div class="overlay"></div>
+    {% if page.layout == 'home' %}
+      <ul id="interiorBackdrop" class="poster-line interior-poster">
+        {% for post in site.categories.movie limit:4 %}
+          <li><img src="{{ post.poster }}"/></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <ul id="interiorBackdrop" class="poster-line interior-poster">
+        {% for post in site.categories.movie limit:1 %}
+          <img src="{{ post.backdrop }}"/>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 
 </footer>

@@ -101,14 +101,14 @@ $(document).ready(function(){
     if(averageVote % 1 != 0){
       wholeNumber = Math.floor(averageVote);
       for (i = 0; i < wholeNumber/2; ++i) {
-        $('#popularVote').append('<i class="fa fa-star"></i>');
+        $('#popularVote').append('<i class="fa fa-star"></i> ');
       }
       $('#popularVote').append('<i class="fa fa-star-half-o"></i>');
       
     } else {
       wholeNumber = Math.floor(averageVote);
       for (i = 0; i < wholeNumber/2; ++i) {
-        $('#popularVote').append('<i class="fa fa-star"></i>');
+        $('#popularVote').append('<i class="fa fa-star"></i> ');
       }
     }
   }

@@ -12,19 +12,19 @@ layout: category
   </div>
   <h2 class="title">{{ post.title }}</h2>
   <div>{{ post.data }}</div>
-  <p class="score">
-    {% if post.score == 1 %}
-      <span class="one"><i class="fa fa-star"></i></span>
-    {% elsif post.score == 2 %}
-      <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-    {% elsif post.score == 3 %}
-      <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-    {% elsif post.score == 4 %}
-      <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-    {% elsif post.score == 5 %}
-      <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-    {% endif %}
-  </p>
+    <p class="score">
+      {% if post.score == 1 %}
+        <span class="one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
+      {% elsif post.score == 2 %}
+        <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
+      {% elsif post.score == 3 %}
+        <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
+      {% elsif post.score == 4 %}
+        <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></span>
+      {% elsif post.score == 5 %}
+        <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+      {% endif %}
+    </p>
 </div>
 {% endfor %}
 </div>

@@ -257,12 +257,21 @@ $(function() {
             '---';
 
             console.log(saveData);
+          
+            var d = new Date();
+
+            var month = d.getMonth()+1;
+            var day = d.getDate();
+
+            var todaysDate = d.getFullYear() + '-' +
+                (month<10 ? '0' : '') + month + '-' +
+                (day<10 ? '0' : '') + day;
 
             // save file locally
             var hiddenElement = document.createElement('a');
             hiddenElement.href = 'data:attachment/text,' + encodeURI(saveData);
             hiddenElement.target = '_blank';
-            hiddenElement.download = releaseDateFinal + '-' + movieNameforPost + '.markdown';
+            hiddenElement.download = todaysDate + '-' + movieNameforPost + '.markdown';
             hiddenElement.click();
         }
       }

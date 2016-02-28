@@ -28,13 +28,13 @@
           <div>{{ post.date | date: '%B %d, %Y' }}</div>
           <p class="score">
             {% if post.score == 1 %}
-              <span class="one"><i class="fa fa-star"></i></span>
+              <span class="one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
             {% elsif post.score == 2 %}
-              <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+              <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
             {% elsif post.score == 3 %}
-              <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+              <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
             {% elsif post.score == 4 %}
-              <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+              <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></span>
             {% elsif post.score == 5 %}
               <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
             {% endif %}
@@ -53,6 +53,19 @@
           {% if post.written == true %}
             <div class="col-md-6 article-container ">
               <h3>{{ post.title }}</h3>
+              <p class="score">
+                {% if post.article_score == 1 %}
+                  <span class="one"><i class="fa fa-star"></i></span>
+                {% elsif post.article_score == 2 %}
+                  <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                {% elsif post.article_score == 3 %}
+                  <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                {% elsif post.article_score == 4 %}
+                  <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                {% elsif post.article_score == 5 %}
+                  <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                {% endif %}
+              </p>
               <div class="col-md-12 article-poster ">
                 <a class="" href="{{ post.url | prepend: site.baseurl }}">
                   <img src="{{ post.article_poster }}"/>
@@ -61,15 +74,6 @@
               <div class="col-md-12  article-content">
                 <p>{{ post.content | strip_html | truncatewords: 45 }}</p>
                 <a href="{{ post.url }}">Read full article...</a>
-                <p class="score">
-                  {% if post.score == 1 %}
-                    <span title="One star rating, not a fan, in my opinion... Don't get too worked up on seeing this one." class="one"><i class="fa fa-star"></i></span>
-                  {% elsif post.score == 2 %}
-                    <span title="Two stars? Pretty good! But don't rush out to see it in theaters or go pay to rent this one... It's probably on Netflix or Prime anyways." class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-                  {% elsif post.score == 3 %}
-                    <span title="Three stars! Hell yeah! Bust down the doors folks, this is a must see in theaters. OR - Go buy it, go rent it, whatever you gotta do, you gotta see this one!" class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-                  {% endif %}
-                </p>
               </div>
             </div>
           {% endif %}

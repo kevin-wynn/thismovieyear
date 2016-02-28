@@ -9,9 +9,6 @@
 
   <div class="top-movie-posters header-background">
     <div class="overlay"></div>
-    <div class="triangle-overlay-yellow"></div>
-    <div class="triangle-overlay-blue"></div>
-
     {% if page.layout == 'home' %}
       <ul id="interiorBackdrop" class="poster-line interior-poster">
         {% for post in site.categories.movie limit:4 %}
