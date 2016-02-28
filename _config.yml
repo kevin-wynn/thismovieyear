@@ -4,6 +4,7 @@ email: kevin@kevin-wynn.com
 baseurl: ""
 url: "http://localhost:4000"
 #url: "http://thismovieyear.com"
+description: This Movie Year is a movie rating and review website.
 permalink: pretty
 future: true
 # Build settings
