@@ -1,18 +1,19 @@
 ---
 layout: post
 title: "Eternal Sunshine of the Spotless Mind"
+id: 38
 date: March 19th, 2004
 score: 4
-category: 
+category:
 - movie
 - Science Fiction
 - Drama
 - Romance
-actors: 
+actors:
 - Jim Carrey
 - Kate Winslet
 - Elijah Wood
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/5tVf0ow8MX4OwjmVoSa5v7qUDka.jpg
 - http://image.tmdb.org/t/p/w300/cZza2PhUveCLp4csjYGIq1WxDst.jpg
 - http://image.tmdb.org/t/p/w300/qwWrgijNw23w3nVcHyP1O1SRhi7.jpg

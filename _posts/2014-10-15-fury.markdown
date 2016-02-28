@@ -1,18 +1,19 @@
 ---
 layout: post
 title: "Fury"
+id: 228150
 date: October 15th, 2014
 score: 5
-category: 
+category:
 - movie
 - War
 - Drama
 - Action
-actors: 
+actors:
 - Brad Pitt
 - Shia LaBeouf
 - Logan Lerman
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg
 - http://image.tmdb.org/t/p/w300/anP0tygzniIok6L3OxcSZ9TYCF3.jpg
 - http://image.tmdb.org/t/p/w300/cXdx9wov6TKnCp8u6bNVVuf1Hyj.jpg

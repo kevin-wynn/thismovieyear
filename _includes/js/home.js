@@ -1,64 +1,96 @@
 $(document).ready(function(){
-//   var movieId ="{% for post in site.posts %}{% if post.movie_id != nil %}{{ post.movie_id }},{% endif %}{% endfor %}",
-//       movieIds = movieId.split(','),
-//       movieIds = movieIds.filter(Boolean),
-//       movieIds = movieIds.splice(0,8),
-//       score ="{% for post in site.posts %}{% if post.score != nil %}{{ post.score }},{% endif %}{% endfor %}",
-//       scores = score.split(','),
-//       scores = scores.filter(Boolean),
-//       scores = scores.splice(0,8),
-//       link ="{% for post in site.categories.movie %}{{ post.url | prepend: site.baseurl }},{% endfor %}",
-//       links = link.split(','),
-//       links = links.splice(0,8),
-//       movieContainer = $("#movieContainer"),
-//       posterContainer = $("#posterContainer"),
-//       movieRelease = $("#movieRelease"),
-//       movieTitle = $("#movieTitle"),
-//       interiorBackdrop = $('#interiorBackdrop'),
-//       activePanel = $("#activePanel"),
-//       baseUrl, releaseDate, title, wave, rating, baseUrlBackdrop, backdropPath, clickedId, posterItemCount,
-//       movies = [],
-//       functionCalls = 0;
-//
-//   function errorCB(data) { console.log("Error callback: " + data); };
-//
-//   theMovieDb.configurations.getConfiguration(buildPosterBaseUrl, errorCB);
-//
-//   function buildPosterBaseUrl(data) {
-//     baseUrl = $.parseJSON(data).images.base_url;
-//     baseUrlPoster = baseUrl + 'w300';
-//     baseUrlBackdrop = baseUrl + 'w500';
-//     buildMovies();
-//   }
-//
-//   function buildMovies(data) {
-//     for (i = 0; i < movieIds.length; ++i) {
-//       theMovieDb.movies.getById({"id":movieIds[i] }, function(data){
-//         wave = functionCalls++
-//         title = [$.parseJSON(data).original_title];
-//         overview = [$.parseJSON(data).overview];
-//         posterPath = baseUrlPoster + [$.parseJSON(data).poster_path];
-//         backdropPath = baseUrlBackdrop + [$.parseJSON(data).poster_path];
-//         releaseDate = [$.parseJSON(data).release_date];
-//         releaseDate = $.format.date( releaseDate + "10:00:00.00", "MMMM D, yyyy");
-//         movieLink = title[0].replace(/ /g,'');
-//
-//         interiorBackdrop.append('<li><img src="' + backdropPath + '"></li>');
-//
-//         movieContainer.append('<div id="' + movieIds[wave] + '" class="posterItem col-md-3 poster-container"><div class="poster">' +
-//         '<img src=' + posterPath + '/>' + '</div>' +
-//         '<h2 class="title">' + title + '</h2>' +
-//         '<div>' + releaseDate + '</div>' + '<p class="score">' +
-//         '</p>' + '</div>');
-//       }, errorCB);
-//
-//     }
-//
-//     function setActiveItemDefault(data) {
-//       activePanel.append('<div class="col-md-6 nopadding"><img src="' + backdropPath + '"></div>' +
-//         '<div class="col-md-6"><h2>' + title + '</h2><p class="release-date">' + releaseDate + '</p>' +
-//         '<h3>' + overview + '</h3></div>'
-//       );
-//     }
-//   }
+  var detailsContainer = $('#detailsContainer'),
+      titleContainer = $('#titleContainer'),
+      allMovieIds = $("a[id^='movieId']"),
+      actorContainer = $('#actorContainer'),
+      loaderHtml = '<div class="close"><i class="fa fa-times"></i></div>',
+      movieId, posterSize, baseUrl, buildBackdropUrlBase, backDrop, close, title, description,
+      individualActorName, actorImage, firstThree, cast;
+  
+  function errorCB(){
+    console.log('there was an error: ', data);
+  }
+  
+  theMovieDb.configurations.getConfiguration(getConfig, errorCB)
+  
+  function getConfig(data) {
+//    console.log(data);
+    
+    posterSize = $.parseJSON(data).images.poster_sizes.length-1,
+    posterSize = $.parseJSON(data).images.poster_sizes[posterSize];
+    baseUrl = $.parseJSON(data).images.base_url;
+    buildBackdropUrlBase = baseUrl + 'w780';
+  }
+
+  
+  allMovieIds.click(function(){
+    movieId = $(this).attr("href"),
+    movieId = movieId.substring(1);
+    getMovie();
+  });
+  
+  detailsContainer.hide();
+    
+  function getMovie(data){
+      theMovieDb.movies.getById({"id":movieId}, buildMovieData, errorCB);
+  }
+  
+  function buildMovieData(data){
+    console.log(data);
+    
+    backDrop = $.parseJSON(data).backdrop_path;
+    backDrop = buildBackdropUrlBase + backDrop;
+
+    title = $.parseJSON(data).title;
+    
+    description = $.parseJSON(data).overview;
+    
+    detailsContainer.html('<div class="loader"><i class="fa fa-circle-o-notch fa-spin"></i></div>');
+    detailsContainer.html( loaderHtml + 
+                          '<div class="overlay"></div>' +
+                          '<div id="movieDetails" class="selected-content">' +
+                          '<div class="selected-title">' + title + '</div>' +
+                          '<div class="selected-description">' + description + '</div>' +
+                          '</div>' +
+                          '<img id="backDropImage" src=' + backDrop + '/>');
+    
+    $('#backDropImage').Vague({
+        intensity: 5,
+        forceSVGUrl: false
+    }).blur()
+    
+    addCast();
+    enableClose();
+  }
+  
+  function addCast() {
+    var movieDetails = $('#movieDetails');
+    
+    theMovieDb.movies.getCredits({"id": movieId }, function(data){
+      cast = $.parseJSON(data).cast,
+      firstThree = cast.splice(0,3);
+
+      for(i = 0; i < firstThree.length; ++i) {
+        if(firstThree[i].profile_path != null){
+          individualActorName = firstThree[i].name,
+          actorImage = baseUrl + '/w300' + firstThree[i].profile_path;
+          
+          movieDetails.append('<div class="actor-block"><div class="actor-image"><img src="' + actorImage + '"/></div><div class="actor-name">' + individualActorName + '</div></div>');
+        } else {
+          individualActorName = firstThree[i].name;
+          movieDetails.append('<div class="actor-block"><div class="actor-image"><img class="no-actor" src="/assets/images/no-actor.jpg"/></div><div class="actor-name">' + individualActorName + '</div></div>');
+        }
+      }
+    }, errorCB);
+    
+    detailsContainer.show();
+  }
+  
+  function enableClose(){
+    $('.close').click(function(){
+      detailsContainer.html('');
+      detailsContainer.hide();
+    }); 
+  }
+    
 });

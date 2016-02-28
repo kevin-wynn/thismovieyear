@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hitman: Agent 47"
+id: 249070
 date: August 21st, 2015
 score: 2
 category:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Blood Diamond"
+id: 1372
 date: December 7th, 2006
 score: 4
 category:

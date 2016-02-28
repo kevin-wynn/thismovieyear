@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mad Max: Fury Road"
+id: 76341
 date: May 14th, 2015
 score: 5
 category:

@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "True Lies"
+id: 36955
 date: July 14th, 1994
 score: 4
-category: 
+category:
 - movie
 - Action
 - Thriller
-actors: 
+actors:
 - Arnold Schwarzenegger
 - Jamie Lee Curtis
 - Tom Arnold
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/dulCsiwzZihFGmjtGA6p0yDWEN1.jpg
 - http://image.tmdb.org/t/p/w300/c4poMDwQ0nUj81m4WPriiv96ExZ.jpg
 - http://image.tmdb.org/t/p/w300/f2KAWJx4I5TQYRVLTrAUCffg0tP.jpg

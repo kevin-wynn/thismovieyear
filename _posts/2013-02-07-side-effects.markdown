@@ -1,18 +1,19 @@
 ---
 layout: post
 title: "Side Effects"
+id: 109421
 date: February 7th, 2013
 score: 3
-category: 
+category:
 - movie
 - Thriller
 - Crime
 - Drama
-actors: 
+actors:
 - Rooney Mara
 - Jude Law
 - Channing Tatum
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/hV6vuYtrnxWUOFsL0EGv3quK8II.jpg
 - http://image.tmdb.org/t/p/w300/9TzOEgOMVfiDseOvWhrn18zLxKt.jpg
 - http://image.tmdb.org/t/p/w300/5L7BSYbzM8iizvIrS8EaaZoDrI3.jpg

@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Macbeth"
+id: 225728
+date: August 16th, 2015
+score: 3
+category:
+- movie
+- Drama
+- War
+actors:
+- Michael Fassbender
+- Marion Cotillard
+- Paddy Considine
+actorsImages:
+- http://image.tmdb.org/t/p/w300/r6dxyfjbpOw4CG2feUhlUOLynUs.jpg
+- http://image.tmdb.org/t/p/w300/mJl7ngstco78rgxSAwLCPhTEOh5.jpg
+- http://image.tmdb.org/t/p/w300/rusWgRebHyV0VLMtfUTrGVmYr3A.jpg
+overview: Feature film adaptation of Shakespeare's Scottish play about General Macbeth whose ambitious wife urges him to use wicked means in order to gain power of the throne over the sitting king, Duncan.
+poster: http://image.tmdb.org/t/p/w500/417tcPgyz8oatgp1WE0SZZ4Odgl.jpg/
+backdrop: http://image.tmdb.org/t/p/original/hoTrT5OzRBbLeXovYGFBQ6wrp1.jpg
+---

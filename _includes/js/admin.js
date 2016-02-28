@@ -96,7 +96,7 @@ $(function() {
         if (posterPath != null && categories != '') {
           resultsContainer.append('<div id="posterContainer" class="' + movieId + '"><div class="col-md-3 poster-item">' +
           '<img id="posterUrlContainer" src=' + posterUrl + '/></div>' +
-          '<div class="poster-text col-md-9"><h2 data-title="' + movieName + '">' + movieName + '<div class="rating"></div></h2><p data-release-date="' + releaseDate + '">' + releaseDate + '</p>' +
+          '<div class="poster-text col-md-9"><h2 data-title="' + movieName + '">' + movieName + '<div class="rating"></div></h2><p data-release-date="' + releaseDate + '">' + releaseDate + ' - ' + movieId + '</p>' +
           '<p data-categories="' + categories + '">' + categories + '</p><p id="overview" data-overview="' + overview + '">' + overview + '</p>' +
           '<div id="actorContainer"></div>' + '<div id="saveContainer"></div>' +
           '<div class="undo">Undo</div></div><div id="backdropContainer" data-backdrop="' + posterBackdropUrl + '"></div></div>');
@@ -243,6 +243,7 @@ $(function() {
             saveData = '---' + '\n' +
             'layout: post' + '\n' +
             'title: "' + movieNameContainer + '"' + '\n' +
+            'id: ' + movieId + '\n' +
             'date: ' + releaseDateFinalPretty + '\n' +
             'score: ' + scoreNumber + '\n' +
             'category: ' + '\n' +

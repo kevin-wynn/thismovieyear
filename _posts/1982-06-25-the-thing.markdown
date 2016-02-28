@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Thing"
+id: 1091
 date: June 25th, 1982
 score: 4
 category:

@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Deadpool"
+id: 293660
+date: February 9th, 2016
+score: 4
+category: 
+- movie
+- Adventure
+- Action
+- Comedy
+actors: 
+- Ryan Reynolds
+- Morena Baccarin
+- T.J. Miller
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/3J19JiWqs4M75FFVqOdwn0DBU5q.jpg
+- http://image.tmdb.org/t/p/w300/gUG9fnudV5Ev1MIr3adngn1GuZJ.jpg
+- http://image.tmdb.org/t/p/w300/wkm8YvulYwuB4pxEvOAlwv8AWdr.jpg
+overview: Based upon Marvel Comics’ most unconventional anti-hero, DEADPOOL tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.
+poster: http://image.tmdb.org/t/p/w500/inVq3FRqcYIRl2la8iZikYYxFNR.jpg/
+backdrop: http://image.tmdb.org/t/p/original/n1y094tVDFATSzkTnFxoGZ1qNsG.jpg
+---

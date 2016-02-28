@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Creed"
+id: 312221
 date: November 25th, 2015
 score: 4
 category:

@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Pay the Ghost"
+id: 290637
 date: September 16th, 2015
 score: 4
-category: 
+category:
 - movie
 - Horror
 - Thriller
-actors: 
+actors:
 - Nicolas Cage
 - Sarah Wayne Callies
 - Veronica Ferres
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/fW37Gbk5PJZuXvyZwtcr0cMwPKY.jpg
 - http://image.tmdb.org/t/p/w300/u1IfYCkMMH4Xpu0bstxktuT0mGi.jpg
 - http://image.tmdb.org/t/p/w300/vY3zz9MpIxnUoTygbzvBmMfIcHi.jpg

@@ -1,19 +1,20 @@
 ---
 layout: post
 title: "The Godfather: Part III"
+id: 242
 date: December 24th, 1990
 score: 3
-category: 
+category:
 - movie
 - Drama
 - Action
 - Thriller
 - Crime
-actors: 
+actors:
 - Al Pacino
 - Diane Keaton
 - Andy García
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/lk0nt14sH96SYHDkX7qsLlpqRjJ.jpg
 - http://image.tmdb.org/t/p/w300/fzgUMnbOkxC6E3EFcYHWHFaiKyp.jpg
 - http://image.tmdb.org/t/p/w300/zE3KYH6f6cxCehJJYKDTQa8sCaK.jpg

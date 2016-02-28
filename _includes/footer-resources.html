@@ -8,6 +8,11 @@
 {% include js/jquery-dateFormat.min.js %}
 {% include js/lazyload.js %}
 
+{% if page.layout == 'home' %}
+  {% include js/home.js %}
+  {% include js/vague.js %}
+{% endif %}
+
 {% if page.layout == 'admin' %}
   {% include js/admin.js %}
   {% include js/jquery.raty-fa.js %}

@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "The Godfather: Part II"
+id: 240
 date: December 20th, 1974
 score: 5
-category: 
+category:
 - movie
 - Drama
 - Crime
-actors: 
+actors:
 - Al Pacino
 - Robert Duvall
 - Diane Keaton
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/lk0nt14sH96SYHDkX7qsLlpqRjJ.jpg
 - http://image.tmdb.org/t/p/w300/1aBC7NxPy10ofng6HsJBecJ1vMZ.jpg
 - http://image.tmdb.org/t/p/w300/fzgUMnbOkxC6E3EFcYHWHFaiKyp.jpg

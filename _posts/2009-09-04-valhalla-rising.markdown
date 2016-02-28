@@ -1,19 +1,20 @@
 ---
 layout: post
 title: "Valhalla Rising"
+id: 37861
 date: September 4th, 2009
 score: 5
-category: 
+category:
 - movie
 - Adventure
 - Drama
 - Action
 - Fantasy
-actors: 
+actors:
 - Mads Mikkelsen
 - Gary Lewis
 - Jamie Sives
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/hJTB5odoUVrVmLJdkuAMNBRvyvw.jpg
 - http://image.tmdb.org/t/p/w300/nyJuln6MTKFfICCSkURABKX3jgl.jpg
 - http://image.tmdb.org/t/p/w300/92BcXrr2W7gZri6xVlLhpLLaPsf.jpg

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Дневной Дозор"
+id: 2269
 date: January 1st, 2006
 score: 4
-category: 
+category:
 - movie
 - Adventure
 - Fantasy
@@ -12,11 +13,11 @@ category:
 - Action
 - Thriller
 - Science Fiction
-actors: 
+actors:
 - Konstantin Khabenskiy
 - Mariya Poroshina
 - Vladimir Menshov
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/dSZhT7njGfcOCqvRhWrX2WANVOt.jpg
 - http://image.tmdb.org/t/p/w300/rTPyJduXbBb5pNX9pBLk4knUBdr.jpg
 - http://image.tmdb.org/t/p/w300/veJPIWsas025PctmBpP6LpZrR6T.jpg

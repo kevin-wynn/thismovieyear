@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Legend"
+id: 276907
 date: September 9th, 2015
 score: 4
-category: 
+category:
 - movie
 - Crime
 - Thriller
-actors: 
+actors:
 - Tom Hardy
 - Emily Browning
 - Taron Egerton
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/5KwHVwrr982YSsCf4HaSFMLrsYf.jpg
 - http://image.tmdb.org/t/p/w300/tQFdxVbHpxZTph9lTiuwqgbwQJ6.jpg
 - http://image.tmdb.org/t/p/w300/bVsLVoO3BGoHRLjWoM4Gjav2hNb.jpg

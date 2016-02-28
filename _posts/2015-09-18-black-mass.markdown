@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Black Mass"
+id: 261023
 date: September 18th, 2015
 score: 4
-category: 
+category:
 - movie
 - Crime
 - Drama
-actors: 
+actors:
 - Johnny Depp
 - Joel Edgerton
 - Benedict Cumberbatch
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/ea4fTp9T8Zy2KWxyFsqDIBgHZmb.jpg
 - http://image.tmdb.org/t/p/w300/lkOkaMKSRRGLMgkLaCzR9sYgTgx.jpg
 - http://image.tmdb.org/t/p/w300/2NQH6clGUjJmVSOjWiVD54gurKE.jpg

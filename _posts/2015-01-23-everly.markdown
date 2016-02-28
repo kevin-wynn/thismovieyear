@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Everly"
+id: 277355
 date: January 23rd, 2015
 score: 2
-category: 
+category:
 - movie
 - Thriller
 - Action
-actors: 
+actors:
 - Salma Hayek
 - Hiroyuki Watanabe
 - Jennifer Blanc
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/ktz50VZWclF5MX33waImksygk55.jpg
 - http://image.tmdb.org/t/p/w300/yFPTPGg04TuZJOvYb4zH04aBwK5.jpg
 - http://image.tmdb.org/t/p/w300/uasHB6t757gRtUFToPDpHkulo59.jpg

@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Enemy"
+id: 181886
 date: March 14th, 2014
 score: 5
-category: 
+category:
 - movie
 - Thriller
 - Mystery
-actors: 
+actors:
 - Jake Gyllenhaal
 - Mélanie Laurent
 - Sarah Gadon
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/wRgIPBzVzIIhWcdJAduPOKJJHsL.jpg
 - http://image.tmdb.org/t/p/w300/n10Yr6LtckIcgw3EdPxkVjwkBYS.jpg
 - http://image.tmdb.org/t/p/w300/4dXxOklDONdtXGvh0IDGM1BnbfD.jpg

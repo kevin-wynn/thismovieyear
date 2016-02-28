@@ -1,0 +1,23 @@
+---
+layout: post
+title: "22 Jump Street"
+id: 187017
+date: June 5th, 2014
+score: 4
+category: 
+- movie
+- Crime
+- Comedy
+- Action
+actors: 
+- Jonah Hill
+- Channing Tatum
+- Dave Franco
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/paKfXGK2gnYHWkqe1NiQR1pGac7.jpg
+- http://image.tmdb.org/t/p/w300/5L7BSYbzM8iizvIrS8EaaZoDrI3.jpg
+- http://image.tmdb.org/t/p/w300/vYwZ1ipGWDS4efes5GLuXgt1COi.jpg
+overview: After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college. But when Jenko meets a kindred spirit on the football team, and Schmidt infiltrates the bohemian art major scene, they begin to question their partnership. Now they don't have to just crack the case - they have to figure out if they can have a mature relationship. If these two overgrown adolescents can grow from freshmen into real men, college might be the best thing that ever happened to them.
+poster: http://image.tmdb.org/t/p/w500/gNlV5FhDZ1PjxSv2aqTPS30GEon.jpg/
+backdrop: http://image.tmdb.org/t/p/original/9NmTVqQ9f2ltecPZgXIj4Bk2c6s.jpg
+---

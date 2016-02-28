@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Meru"
+id: 318279
+date: January 25th, 2015
+score: 5
+category:
+- movie
+- Adventure
+- Documentary
+actors:
+- Conrad Anker
+- Grace Chin
+- Jimmy Chin
+actorsImages:
+- http://image.tmdb.org/t/p/w300/oslDXZjpXSsiaAhPv5UtlZGPTmw.jpg
+- http://image.tmdb.org/t/p/w300null
+- http://image.tmdb.org/t/p/w300/cTNonkTQ6MCzcPE9yBNHmngYvaC.jpg
+overview: Meru is the electrifying story of three elite American climbers—Conrad Anker, Jimmy Chin, and Renan Ozturk—bent on achieving the impossible.
+poster: http://image.tmdb.org/t/p/w500/ibDApPTfqYpiAk3W3Z98bhARsu7.jpg/
+backdrop: http://image.tmdb.org/t/p/original/ncEJzSUJrFEW1dcS8bJyy11O8rm.jpg
+---

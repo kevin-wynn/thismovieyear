@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Straight Outta Compton"
+id: 277216
 date: August 13th, 2015
 score: 4
-category: 
+category:
 - movie
 - Drama
 - Music
-actors: 
+actors:
 - O'Shea Jackson Jr.
 - Corey Hawkins
 - Jason Mitchell
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/gW8s4QH4Rurjej5x6Q46GlvTtrl.jpg
 - http://image.tmdb.org/t/p/w300/wo6wWlI5Iuhfne0PDoBqUxgnBjR.jpg
 - http://image.tmdb.org/t/p/w300/eZBAmGqwG2q2bFWD3xLTLt69QAb.jpg

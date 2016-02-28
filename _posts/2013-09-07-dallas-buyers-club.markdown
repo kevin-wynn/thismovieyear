@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Dallas Buyers Club"
+id: 152532
 date: September 7th, 2013
 score: 5
-category: 
+category:
 - movie
 - Drama
 - History
-actors: 
+actors:
 - Matthew McConaughey
 - Jennifer Garner
 - Jared Leto
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300/uKj2m1hJSw4dlOLAvZ3g9WiZkAZ.jpg
 - http://image.tmdb.org/t/p/w300/tQLAbyf218NlZ9eTy5OBcgUOvDi.jpg
 - http://image.tmdb.org/t/p/w300/msugySeTCyCmlRWtyB6sMixTQYY.jpg

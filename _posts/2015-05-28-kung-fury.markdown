@@ -1,19 +1,20 @@
 ---
 layout: post
 title: "Kung Fury"
+id: 251516
 date: May 28th, 2015
 score: 4
-category: 
+category:
 - movie
 - Action
 - Comedy
 - Science Fiction
 - Fantasy
-actors: 
+actors:
 - David Sandberg
 - Jorma Taccone
 - Leopold Nilsson
-actorsImages: 
+actorsImages:
 - http://image.tmdb.org/t/p/w300null
 - http://image.tmdb.org/t/p/w300/8NqZvjdsMIT3HgfdltoMBqxsEcB.jpg
 - http://image.tmdb.org/t/p/w300null
