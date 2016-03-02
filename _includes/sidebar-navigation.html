@@ -1,16 +1,44 @@
 <div class="col-md-1 categories sidebar-categories">
   <ul id="categoryList">
     <li class="home"><a href="{{site.url}}">Home</a></li>
+    <li class="all"><a href="/all-movies">All</a></li>
     <div class="dropdown">
       <button class="dropdown-toggle" type="button" data-toggle="closed">
        Category <i class="fa fa-angle-down"></i>
       </button>
       <ul class="dropdown-menu">
-       <li class="all"><a href="/all-movies">All</a></li>
         {% for category in site.categories %}
           {% unless category contains 'article' %}
             <li><a href="{{ site.url }}/{{ category | first | replace: ' ','-' | downcase }}" name="{{ category | first }}">{{ category | first }}</a></li>
           {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button" data-toggle="closed">
+       Years <i class="fa fa-angle-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        {% for post in site.posts  %}
+            {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+            {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+            {% if forloop.first %}
+            <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+            <ul>
+            {% endif %}
+
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+            {% if forloop.last %}
+            </ul>
+            {% else %}
+                {% if this_year != next_year %}
+                </ul>
+                <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+                <ul>
+                {% endif %}
+            {% endif %}
         {% endfor %}
       </ul>
     </div>

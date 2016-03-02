@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="home">
+
+    {% include header.html %}
+
+  <div class="row">
+    <div class="container recent-movies">
+      {% include sidebar-navigation.html %}
+      <div class="col-md-8 posters" id="posterContainer">
+        {% include search-container.html %}
+        <h2>All Movies</h2>
+<!--
+        {% for post in site.categories.movie %}
+        <div class="col-md-3 poster-container" id="postImage">
+          <div class="poster">
+            <a class="" href="{{ post.url | prepend: site.baseurl }}">
+              <img src="{{ post.poster }}"/>
+            </a>
+          </div>
+          <h2 class="title">{{ post.title }}</h2>
+          <div>{{ post.data }}</div>
+          <p class="score">
+            {% if post.score == 1 %}
+              <span class="one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
+            {% elsif post.score == 2 %}
+              <spany class="two"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
+            {% elsif post.score == 3 %}
+              <span class="three"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></span>
+            {% elsif post.score == 4 %}
+              <span class="four"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></span>
+            {% elsif post.score == 5 %}
+              <span class="five"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+            {% endif %}
+          </p>
+        </div>
+        {% endfor %}
+-->
+        {% for post in site.posts  %}
+            {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+            {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+            {% if forloop.first %}
+            <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+            <ul>
+            {% endif %}
+
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+            {% if forloop.last %}
+            </ul>
+            {% else %}
+                {% if this_year != next_year %}
+                </ul>
+                <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+                <ul>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+      </div>
+      {% include sidebar-comingsoon.html %}
+    </div>
+    <div class="col-md-8 col-md-offset-1 show-more-container">
+      <div class="show-more" id="showMore">
+        Show More
+      </div>
+    </div>
+
+  </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+{% include footer-resources.html %}

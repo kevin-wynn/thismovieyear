@@ -14,25 +14,19 @@ $(document).ready(function(){
   toggle.click(function(){    
     if($(this).attr('data-toggle') == 'closed'){
       toggle.attr('data-toggle', 'expanded');
-      menu.slideDown("slow");
-      
-      console.log($(this).find('.fa').attr('class').indexOf('down'));
-      
+      $(this).siblings(menu).slideDown("slow");
+
       if ($(this).find('.fa').attr('class').indexOf('down') > -1) {
-        console.log('hi');
         $(this).find('.fa').removeClass('fa-angle-down');
         $(this).find('.fa').addClass('fa-angle-up');
-        console.log($(this).find('.fa').attr('class'));
       }
     } else {
       toggle.attr('data-toggle', 'closed');
-      menu.slideUp("slow");
+      $(this).siblings(menu).slideUp("slow");
       
       if ($(this).find('.fa').attr('class').indexOf('up') > -1) {
-        console.log('hello');
         $(this).find('.fa').removeClass('fa-angle-up');
         $(this).find('.fa').addClass('fa-angle-down');
-        console.log($(this).find('.fa').attr('class'));
       }
     }
   });
