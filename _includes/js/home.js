@@ -4,7 +4,7 @@ $(document).ready(function(){
       allMovieIds = $("a[id^='movieId']"),
       actorContainer = $('#actorContainer'),
       loaderHtml = '<div class="close"><i class="fa fa-times"></i></div>',
-      movieId, posterSize, baseUrl, buildBackdropUrlBase, backDrop, close, title, description,
+      movieId, posterSize, baseUrl, buildBackdropUrlBase, backDrop, close, title, description, poster,
       individualActorName, actorImage, firstThree, cast, movieUrl, release, tagline, averageVote, wholeNumber;
   
   function errorCB(){
@@ -36,10 +36,13 @@ $(document).ready(function(){
   }
   
   function buildMovieData(data){
-//    console.log(data);
+    console.log(data);
     
     backDrop = $.parseJSON(data).backdrop_path;
     backDrop = buildBackdropUrlBase + backDrop;
+    
+    poster = $.parseJSON(data).poster_path;
+    poster = buildBackdropUrlBase + poster;
 
     title = $.parseJSON(data).title;
     release = $.parseJSON(data).release_date;
@@ -50,6 +53,8 @@ $(document).ready(function(){
     
     detailsContainer.html('<div class="loader"><i class="fa fa-circle-o-notch fa-spin"></i></div>');
     detailsContainer.html( loaderHtml + 
+                          '<div class="col-md-4 selected-poster"><img src="' + poster + '"></div>' +
+                          '<div class="col-md-8 selected-details">' +
                           '<div class="overlay"></div>' +
                           '<div id="movieDetails" class="selected-content">' +
                           '<div class="selected-title">' + title + '</div>' +
@@ -57,14 +62,15 @@ $(document).ready(function(){
                           '<div class="selected-info">Release Date: <span class="release">' + release + '</span></div>' + 
                           '<div id="popularVote" class="popular-vote">Popular Vote: </div>' +
                           '<div class="selected-description">' + description + '</div>' +
-                          '</div>' +
-                          '<img id="backDropImage" src=' + backDrop + '/>' +
-                          '<p class="see-more"><a href="' + movieUrl + '">See Review <i class="fa fa-angle-double-right"></i></a></p>');
+                          '</div><div class="backdrop-image">' +
+                          '<img id="backDropImage" src=' + backDrop + '/></div>' +
+                          '<p class="see-more"><a href="' + movieUrl + '">See Review <i class="fa fa-angle-double-right"></i></a></p>' +
+                          '</div>');
     
-    $('#backDropImage').Vague({
-        intensity: 5,
-        forceSVGUrl: false
-    }).blur()
+//    $('#backDropImage').Vague({
+//        intensity: 5,
+//        forceSVGUrl: false
+//    }).blur()
     
     addCast();
     addPopularVote();
@@ -92,6 +98,7 @@ $(document).ready(function(){
     }, errorCB);
     
     detailsContainer.show();
+    window.scrollTo(0, 0);
   }
   
   function addPopularVote(){

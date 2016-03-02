@@ -240,7 +240,7 @@ function compile(data){
     searchInput: null,
     resultsContainer: null,
     json: [],
-    searchResultTemplate: '<div class="col-md-3 poster-container"><a href="{url}" title="{desc}">' +
+    searchResultTemplate: '<div class="col-md-2 poster-container"><a href="{url}" title="{desc}">' +
                           '<img class="search-poster" src="{poster}">' +
                           '<h2 class="title">{title}</h2>' +
                           '<div>{date}</div></a></div>',
