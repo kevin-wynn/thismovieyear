@@ -36,7 +36,7 @@ $(document).ready(function(){
   }
   
   function buildMovieData(data){
-    console.log(data);
+//    console.log(data);
     
     backDrop = $.parseJSON(data).backdrop_path;
     backDrop = buildBackdropUrlBase + backDrop;
@@ -133,6 +133,13 @@ $(window).load(function(){
   var allMovieIds = $("a[id^='movieId']");
   function setDefaultFirst(){
     allMovieIds.first().trigger('click');
+    setTimeout(function(){
+      $(window).resize(function(){
+        if($(window).width() > 990){
+         $(".backdrop-image").css({'height':($(".selected-poster").height()+'px')}); 
+        }
+      })
+    }, 100)
   };
-  setDefaultFirst();
+  setDefaultFirst();  
 });

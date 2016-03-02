@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Room"
+id: 343275
+date: October 16th, 2015
+score: 4
+category: 
+- movie
+- Drama
+actors: 
+- Brie Larson
+- Jacob Tremblay
+- Joan Allen
+actorsImages: 
+- http://image.tmdb.org/t/p/w300/dUVi7lzI36DvqjN39xL9053P7EO.jpg
+- http://image.tmdb.org/t/p/w300/jztWT5I6I2Dyhma0FQFR2KLL7iU.jpg
+- http://image.tmdb.org/t/p/w300/Atg0mSjK9Dl98YBsFvBuGO8PG5m.jpg
+overview: Jack is a young boy of 5 years old who has lived all his life in one room. He believes everything within it are the only real things in the world. But what will happen when his Ma suddenly tells him that there are other things outside of Room?
+poster: http://image.tmdb.org/t/p/w500/eqFckcHuFCT1FrzLOAvXBb4jHwq.jpg/
+backdrop: http://image.tmdb.org/t/p/original/tBhp8MGaiL3BXpPCSl5xY397sGH.jpg
+---
