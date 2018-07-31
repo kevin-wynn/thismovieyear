@@ -16,6 +16,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/dpUIbzLpExv69faSRyww8A4ydxf.jpg
 - http://image.tmdb.org/t/p/w300/pKDCSFxZF4Fe8xLIFidaZQYmnNF.jpg
 overview: A teen faces a night of terror when three malevolent trick-or-treaters come knocking at her door.
-poster: http://image.tmdb.org/t/p/w500/2qQypuYQtjSpsWvSefY1FBoPn1Q.jpg/
+poster: http://image.tmdb.org/t/p/w500/2qQypuYQtjSpsWvSefY1FBoPn1Q.jpg
 backdrop: http://image.tmdb.org/t/p/original/zcDh1FYEthynNOpcwqM9j8tKC7R.jpg
 ---

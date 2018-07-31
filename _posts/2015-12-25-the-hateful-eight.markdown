@@ -19,6 +19,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/r3oJkdyBOs3ZWmamgNQzcvDGaxc.jpg
 - http://image.tmdb.org/t/p/w300/3ESBPeIUGxB4rptFoWvIcC9UskL.jpg
 overview: Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.
-poster: http://image.tmdb.org/t/p/w500/fqe8JxDNO8B8QfOGTdjh6sPCdSC.jpg/
+poster: http://image.tmdb.org/t/p/w500/fqe8JxDNO8B8QfOGTdjh6sPCdSC.jpg
 backdrop: http://image.tmdb.org/t/p/original/sSvgNBeBNzAuKl8U8sP50ETJPgx.jpg
 ---

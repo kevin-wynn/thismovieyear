@@ -17,6 +17,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/5HKJSfAIeHuVFIns0AINlI2XiGt.jpg
 - http://image.tmdb.org/t/p/w300/m5WMX7TYk2VhsKkVDFRlBGpvr55.jpg
 overview: Malcolm is carefully surviving life in a tough neighborhood in Los Angeles while juggling college applications, academic interviews, and the SAT. A chance invitation to an underground party leads him into an adventure that could allow him to go from being a geek, to being dope, to ultimately being himself.
-poster: http://image.tmdb.org/t/p/w500/a8ATKI5pks0uMQFQzEhElBUrBiQ.jpg/
+poster: http://image.tmdb.org/t/p/w500/a8ATKI5pks0uMQFQzEhElBUrBiQ.jpg
 backdrop: http://image.tmdb.org/t/p/original/qUt7YtCTZf4iozez5RRqrcEgQbE.jpg
 ---

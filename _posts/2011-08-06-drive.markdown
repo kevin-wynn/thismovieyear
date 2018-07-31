@@ -19,6 +19,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/w0cGCBWZhmc1eXYcnXWpYpR4xLW.jpg
 - http://image.tmdb.org/t/p/w300/4pAtKssXy84DzJOgl5155KJNS5z.jpg
 overview: A mysterious Hollywood stuntman who moonlights as a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangland money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.
-poster: http://image.tmdb.org/t/p/w500/fsnaaNQ4RmZwgRv6qfT7NIi41Sj.jpg/
+poster: http://image.tmdb.org/t/p/w500/fsnaaNQ4RmZwgRv6qfT7NIi41Sj.jpg
 backdrop: http://image.tmdb.org/t/p/original/ekLAySalu0CGoGogPWY0BG6uAul.jpg
 ---

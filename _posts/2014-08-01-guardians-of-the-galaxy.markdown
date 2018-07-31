@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/g8nuPwQ9CXxfTVWK4r3TaxfQGqI.jpg
 - http://image.tmdb.org/t/p/w300/21bkLWMVWkSWy0KHrvJrfZFJ94V.jpg
 overview: Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.
-poster: http://image.tmdb.org/t/p/w500/y31QB9kn3XSudA15tV7UWQ9XLuW.jpg/
+poster: http://image.tmdb.org/t/p/w500/y31QB9kn3XSudA15tV7UWQ9XLuW.jpg
 backdrop: http://image.tmdb.org/t/p/original/bHarw8xrmQeqf3t8HpuMY7zoK4x.jpg
 ---

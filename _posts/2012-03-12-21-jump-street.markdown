@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/paKfXGK2gnYHWkqe1NiQR1pGac7.jpg
 - http://image.tmdb.org/t/p/w300/dUVi7lzI36DvqjN39xL9053P7EO.jpg
 overview: In high school, Schmidt was a dork and Jenko was the popular jock. After graduation, both of them joined the police force and ended up as partners riding bicycles in the city park. Since they are young and look like high school students, they are assigned to an undercover unit to infiltrate a drug ring that is supplying high school students synthetic drugs.
-poster: http://image.tmdb.org/t/p/w500/kn4FAsf2V2cMWRo2dP0pBAS3wUT.jpg/
+poster: http://image.tmdb.org/t/p/w500/kn4FAsf2V2cMWRo2dP0pBAS3wUT.jpg
 backdrop: http://image.tmdb.org/t/p/original/uOpFdld7CIifSEoGuRVgWqaeyFs.jpg
 ---

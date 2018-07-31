@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/mXqfwhO8tv2jZe7fX4bkj2HhSi6.jpg
 - http://image.tmdb.org/t/p/w300/c60WxtQceDxOp7sd2iWhOqn5Y2l.jpg
 overview: The true story of how The Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.
-poster: http://image.tmdb.org/t/p/w500/ngKxbvsn9Si5TYVJfi1EGAGwThU.jpg/
+poster: http://image.tmdb.org/t/p/w500/ngKxbvsn9Si5TYVJfi1EGAGwThU.jpg
 backdrop: http://image.tmdb.org/t/p/original/gpaOYwHCF2O5PM5sqFpfzKWuQvb.jpg
 ---

@@ -17,6 +17,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/c4poMDwQ0nUj81m4WPriiv96ExZ.jpg
 - http://image.tmdb.org/t/p/w300/f2KAWJx4I5TQYRVLTrAUCffg0tP.jpg
 overview: Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.
-poster: http://image.tmdb.org/t/p/w500/mTAHr5h5i64hTLqo0cW2X2083Cx.jpg/
+poster: http://image.tmdb.org/t/p/w500/mTAHr5h5i64hTLqo0cW2X2083Cx.jpg
 backdrop: http://image.tmdb.org/t/p/original/qBnkyF3ZvIgvVFf2IM8mqVPti0v.jpg
 ---

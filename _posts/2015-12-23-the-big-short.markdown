@@ -16,6 +16,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/6sV3UU6i8g6pkz0GtQCEOTOtIQu.jpg
 - http://image.tmdb.org/t/p/w300/5rOcicCrTCWye0O2S3dnbnWaCr1.jpg
 overview: The men who made millions from a global economic meltdown.
-poster: http://image.tmdb.org/t/p/w500/p11Ftd4VposrAzthkhF53ifYZRl.jpg/
+poster: http://image.tmdb.org/t/p/w500/p11Ftd4VposrAzthkhF53ifYZRl.jpg
 backdrop: http://image.tmdb.org/t/p/original/yJQ7e2H4vYfBotv3cG4hhVeCA2M.jpg
 ---

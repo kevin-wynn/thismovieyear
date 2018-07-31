@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/8am369y5SGiZv4l0gY9O5ENzgvE.jpg
 - http://image.tmdb.org/t/p/w300/15mDmFEHoVGpfvEGjhFDgJPqoJ9.jpg
 overview: The hallucinogenic misadventures of sportswriter Raoul Duke and his Samoan lawyer, Dr. Gonzo, on a three-day romp from Los Angeles to Las Vegas. Motoring across the Mojave Desert on the way to Sin City, Duke and his purple haze passenger ingest a cornucopia of drugs ranging from acid to ether.
-poster: http://image.tmdb.org/t/p/w500/u9ffgobMADj6GCafeImbov566j9.jpg/
+poster: http://image.tmdb.org/t/p/w500/u9ffgobMADj6GCafeImbov566j9.jpg
 backdrop: http://image.tmdb.org/t/p/original/ujdkwg9sIlgBUSVF1NoiipFdUGv.jpg
 ---

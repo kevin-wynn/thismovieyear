@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/vlKBbOc0htUsDGvcxeULcFXDMRo.jpg
 - http://image.tmdb.org/t/p/w300/1efvolWhMCbbT6qXOlbwieOusbx.jpg
 overview: A story of lost love, young love, a legendary sword and one last opportunity at redemption.
-poster: http://image.tmdb.org/t/p/w500/8O5SSJX0jR1hgM68Q2aGuxF8wzl.jpg/
+poster: http://image.tmdb.org/t/p/w500/8O5SSJX0jR1hgM68Q2aGuxF8wzl.jpg
 backdrop: http://image.tmdb.org/t/p/original/z9xdmVdow3loF7asV97IL0KQLpn.jpg
 ---

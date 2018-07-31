@@ -16,6 +16,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/gnmwOa46C2TP35N7ARSzboTdx2u.jpg
 - http://image.tmdb.org/t/p/w300/eqxR4TGXcY0vLLqR5RkfgVXBgrS.jpg
 overview: The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.
-poster: http://image.tmdb.org/t/p/w500/xSE4NBFDzqedwa4AIj99r1Z7ljF.jpg/
+poster: http://image.tmdb.org/t/p/w500/xSE4NBFDzqedwa4AIj99r1Z7ljF.jpg
 backdrop: http://image.tmdb.org/t/p/original/nF4kmc4gDRQU4OJiJgk6sZtbJbl.jpg
 ---

@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/gSBxQWda0T67hrK3pNyqreRYoyw.jpg
 - http://image.tmdb.org/t/p/w300/298dl5Sle2fYq2Fvri1zLoCLeLo.jpg
 overview: An assassin teams up with a woman to help her find her father and uncover the mysteries of her ancestry.
-poster: http://image.tmdb.org/t/p/w500/4VmZeT8YkuMI6BrA623mHZDISlN.jpg/
+poster: http://image.tmdb.org/t/p/w500/4VmZeT8YkuMI6BrA623mHZDISlN.jpg
 backdrop: http://image.tmdb.org/t/p/original/EnWldA0LlltnAhKjmBZci6Y4Lc.jpg
 ---

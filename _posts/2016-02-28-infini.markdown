@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/ywiPjy5TbCIuvAXhxlFzkRlPH0S.jpg
 - http://image.tmdb.org/t/p/w300/524YwxvMCtwVzpxW1DkAgmE3j5d.jpg
 overview: A search and rescue team are transported through deep space to a distant mining colony to save the sole survivor of a biological outbreak.  During their mission, they find a lethal weapon which is set to arrive on Earth within the hour.
-poster: http://image.tmdb.org/t/p/w500/tP3BOSgYneJTPe3TpELH7XBWE1w.jpg/
+poster: http://image.tmdb.org/t/p/w500/tP3BOSgYneJTPe3TpELH7XBWE1w.jpg
 backdrop: http://image.tmdb.org/t/p/original/eNYRGQqoOkx8Vm7PPaJVB3Brqux.jpg
 ---

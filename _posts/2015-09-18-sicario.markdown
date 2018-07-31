@@ -18,6 +18,6 @@ actorsImages:
 - http://image.tmdb.org/t/p/w300/8am369y5SGiZv4l0gY9O5ENzgvE.jpg
 - http://image.tmdb.org/t/p/w300/x8KKnvHyPvH16M6waAnY1OeCtA8.jpg
 overview: A young female FBI agent joins a secret CIA operation to take down a Mexican cartel boss, a job that ends up pushing her ethical and moral values to the limit.
-poster: http://image.tmdb.org/t/p/w500/p2SdfGmQRaw8xhFbexlHL7srMM8.jpg/
+poster: http://image.tmdb.org/t/p/w500/p2SdfGmQRaw8xhFbexlHL7srMM8.jpg
 backdrop: http://image.tmdb.org/t/p/original/kG5Zn9z20L2O7Jo2Y2jykOMh60v.jpg
 ---
