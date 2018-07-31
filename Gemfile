@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.3.3'
-gem install jekyll-feed
-gem install jekyll-sitemap
-gem install jemoji
 gem 'bundler'
 gem 'jekyll'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jemoji'
 gem 'rack-jekyll'
