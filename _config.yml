@@ -9,3 +9,7 @@ permalink: pretty
 future: true
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
